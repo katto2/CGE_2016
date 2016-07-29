@@ -1,0 +1,3 @@
+o=xllink.gdx par=sigmaq
+rng=sigmaq!A2..B54
+dim=1
