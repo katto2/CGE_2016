@@ -1,0 +1,3903 @@
+
+--- Job Proto_Ag_Agricomposite_0121.gms Start 07/13/16 11:42:41 WEX-WEI 23.7.3 x86_64/MS Windows     
+GAMS Rev 237  Copyright (C) 1987-2011 GAMS Development. All rights reserved
+Licensee: Environment and Economy Division               G111024:0541CN-WIN
+          Korea Environment Institute                                DC7264
+--- Starting compilation
+--- Proto_Ag_Agricomposite_0121.gms(95) 2 Mb
+--- .set_Agri_20160119_static.txt(407) 3 Mb
+--- Proto_Ag_Agricomposite_0121.gms(538) 3 Mb
+--- .iocost_r_Agri_0121.csv(415) 3 Mb
+--- Proto_Ag_Agricomposite_0121.gms(543) 3 Mb
+--- .cost_Agri_0121.csv(18) 3 Mb
+--- Proto_Ag_Agricomposite_0121.gms(772) 3 Mb
+--- .b_sam_br_g_20160119.csv(52) 3 Mb
+--- Proto_Ag_Agricomposite_0121.gms(777) 3 Mb
+--- .b_sam_br_ng_20160119.csv(52) 3 Mb
+--- Proto_Ag_Agricomposite_0121.gms(782) 3 Mb
+--- .GHG_BR_p_20160119.csv(6) 3 Mb
+--- Proto_Ag_Agricomposite_0121.gms(2861) 3 Mb
+--- Starting execution: elapsed 0:00:00.022
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 0
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:00.068
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  1.0000e+000 eqn: (ResM)
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.0000e+000             0.0e+000 (ResM)
+    1     1     0   750 7.6560e-010  1.0e+000    0.0e+000 (XDS(NEINT-c))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 7.6560e-010           I 0.0e+000 4.7e-010 (XDS(NEINT-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  4.6566e-010 eqn: (XDS(NEINT-c))
+Inf-Norm of Normal Map. . . . .  4.6566e-010 eqn: (XDD(NEINT-c))
+Inf-Norm of Minimum Map . . . .  4.6566e-010 eqn: (XDD(NEINT-c))
+Inf-Norm of Fischer Function. .  4.6566e-010 eqn: (XDS(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7656e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.3123e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  4.6566e-010 eqn: (XDD(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 2
+Gradient Evaluations. . 2
+Total Time. . . . . . . 0.021000
+Residual. . . . . . . . 7.655973e-010
+Postsolved residual: 7.6560e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 3 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:00.196
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 1
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:00.266
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  8.1759e-005 eqn: (INTDAG1_Link(Vegi-c,Poultry-a)
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.3447e-004             0.0e+000 (INTDAG1_Link(Vegi-c,Pou)
+    1     1     0   750 9.9957e-010  1.0e+000    0.0e+000 (ComMENCN(NEINT-c))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 2
+Gradient Evaluations. . 2
+Total Time. . . . . . . 0.067000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:00.436
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 2
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:00.500
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.074000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:00.707
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 3
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:00.770
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.063000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:00.935
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 4
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:00.992
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.091000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:01.207
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 5
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:01.279
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.063000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:01.474
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 6
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:01.540
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.063000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:01.705
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 7
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:01.761
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.088000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:01.985
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 8
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:02.042
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.070000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:02.245
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 9
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:02.306
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.066000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:02.495
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 10
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:02.550
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.076000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:02.746
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 11
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:02.808
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.071000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:02.998
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 12
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:03.055
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.082000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:03.274
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 13
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:03.337
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.066000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:03.508
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 14
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:03.564
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.088000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 4 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:03.794
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 15
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:03.859
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.065000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:04.027
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 16
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:04.085
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.090000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:04.309
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 17
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:04.370
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.065000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:04.540
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 18
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:04.627
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.041000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:04.798
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- LOOPS t = 19
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Executing PATH: elapsed 0:00:04.891
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.017000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:05.039
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 20
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:05.139
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.008000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:05.279
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 21
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:05.367
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.012000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:05.525
+--- Proto_Ag_Agricomposite_0121.gms(3516) 6 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 22
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:05.616
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.003000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:05.757
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 23
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:05.842
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.024000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:05.994
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 24
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:06.108
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.086000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:06.336
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 25
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:06.394
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.083000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:06.612
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 26
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:06.668
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.072000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:06.877
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 27
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:06.945
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.056000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:07.147
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 28
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:07.206
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.065000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:07.426
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 29
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:07.481
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.066000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:07.677
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 30
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:07.736
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.067000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:07.938
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 31
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:07.995
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.070000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:08.173
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 32
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:08.230
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.074000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:08.445
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 33
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:08.503
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.069000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:08.712
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 34
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:08.776
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.059000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:08.966
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 35
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:09.023
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.072000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:09.206
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 36
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:09.262
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.075000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 5 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:09.482
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 37
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:09.539
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.056000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:09.739
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 38
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:09.800
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.059000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:09.983
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 39
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:10.037
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.073000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:10.233
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 40
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:10.289
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.071000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:10.499
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 9 Mb
+--- LOOPS t = 41
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 7 Mb
+--- Executing PATH: elapsed 0:00:10.554
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.069000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:10.743
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 10 Mb
+--- LOOPS t = 42
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- Executing PATH: elapsed 0:00:10.797
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.078000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:11.011
+--- Proto_Ag_Agricomposite_0121.gms(3516) 7 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 10 Mb
+--- LOOPS t = 43
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- Executing PATH: elapsed 0:00:11.068
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.073000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:11.297
+--- Proto_Ag_Agricomposite_0121.gms(3516) 8 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 10 Mb
+--- LOOPS t = 44
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- Executing PATH: elapsed 0:00:11.384
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.011000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:11.550
+--- Proto_Ag_Agricomposite_0121.gms(3516) 8 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 10 Mb
+--- LOOPS t = 45
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- Executing PATH: elapsed 0:00:11.639
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.005000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:11.777
+--- Proto_Ag_Agricomposite_0121.gms(3516) 8 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 10 Mb
+--- LOOPS t = 46
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- Executing PATH: elapsed 0:00:11.869
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.004000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:12.028
+--- Proto_Ag_Agricomposite_0121.gms(3516) 8 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 10 Mb
+--- LOOPS t = 47
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- Executing PATH: elapsed 0:00:12.127
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.003000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:12.269
+--- Proto_Ag_Agricomposite_0121.gms(3516) 8 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 10 Mb
+--- LOOPS t = 48
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- Executing PATH: elapsed 0:00:12.367
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.012000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:12.515
+--- Proto_Ag_Agricomposite_0121.gms(3516) 8 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 10 Mb
+--- LOOPS t = 49
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- Executing PATH: elapsed 0:00:12.608
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.005000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:12.762
+--- Proto_Ag_Agricomposite_0121.gms(3516) 8 Mb
+--- Generating MCP model BRAgri
+--- Proto_Ag_Agricomposite_0121.gms(3517) 10 Mb
+--- LOOPS t = 50
+---   769 rows  769 columns  2,580 non-zeroes
+---   3,715 nl-code  1,177 nl-non-zeroes
+--- Proto_Ag_Agricomposite_0121.gms(3517) 8 Mb
+--- Executing PATH: elapsed 0:00:12.836
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+769 row/cols, 2580 non-zeros, 0.44% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+MCPC: Zero:     0 Single:     6 Double:     0
+Preprocessed size   : 750
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  7.4348e+006 eqn: (XDD(NEINT-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  5.5805e+006 var: (PA(NEINT-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ENIT-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.9957e-010             0.0e+000 (ComMENCN(NEINT-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.9957e-010           I 0.0e+000 6.4e-010 (ComMENCN(NEINT-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Normal Map. . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Minimum Map . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Fischer Function. .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7428e-003 eqn: (ComMENCN(NEINT-c))
+Two-Norm of Grad Fischer Fcn. .  2.4028e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4193e+006 var: (XP(NEINT-c))
+Maximum of F. . . . . . . . . .  6.4028e-010 eqn: (ComMENCN(NEINT-c))
+Maximum of Grad F . . . . . . .  3.7174e+006 eqn: (XDD(NEINT-c))
+                                            var: (PA(NEINT-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.043000
+Residual. . . . . . . . 9.995726e-010
+Postsolved residual: 9.9957e-010
+
+--- Restarting execution
+--- Proto_Ag_Agricomposite_0121.gms(3517) 6 Mb
+--- Reading solution for model BRAgri
+--- Executing after solve: elapsed 0:00:13.012
+--- Proto_Ag_Agricomposite_0121.gms(3775) 8 Mb
+*** Status: Normal completion
+--- Job Proto_Ag_Agricomposite_0121.gms Stop 07/13/16 11:42:54 elapsed 0:00:13.061

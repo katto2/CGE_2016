@@ -1,0 +1,407 @@
+ACTP /ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,CO2-a,ELEC-c,GASHeat-c,OIL-c,COAL-c,ENIT-c,NEINT-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,CO2-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process,Total /
+ACT(ACTP) /ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,CO2-a,ELEC-c,GASHeat-c,OIL-c,COAL-c,ENIT-c,NEINT-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,CO2-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process,Total /
+ACNT(ACT)
+AC(ACT) /ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,CO2-a,ELEC-c,GASHeat-c,OIL-c,COAL-c,ENIT-c,NEINT-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,CO2-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process /
+ACNGT(ACT) /ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,ELEC-c,GASHeat-c,OIL-c,COAL-c,ENIT-c,NEINT-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process,Total /
+ACNGA(AC) /ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,ELEC-c,GASHeat-c,OIL-c,COAL-c,ENIT-c,NEINT-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process /
+A(AC) /ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a /
+C(AC) /ELEC-c,GASHeat-c,OIL-c,COAL-c,ENIT-c,NEINT-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c /
+ENC(C) /GASHeat-c,OIL-c,COAL-c /
+ENCN(C) /ELEC-c,ENIT-c,NEINT-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c /
+AgriC(C) /Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c /
+AGriA(A) /Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a /
+LinkC(C) /Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c /
+LinkA(A) /Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a /
+Sfuel(C) /COAL-c /
+Lfuel(C) /GASHeat-c,OIL-c /
+ELECC(C) /ELEC-c /
+M(C) /ENIT-c,NEINT-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c /
+ELECC_s(C) /ELEC-c/
+ENITC_s(C) /ENIT-c/
+NEINTC_s(C) /NEINT-c/
+RiceC_s(C) /Rice-c/
+BarleyC_s(C) /Barley-c/
+BeanC_s(C) /Bean-c/
+PotatoC_s(C) /Potato-c/
+VegiC_s(C) /Vegi-c/
+FruitC_s(C) /Fruit-c/
+FlowerC_s(C) /Flower-c/
+MissCropC_s(C) /MissCrop-c/
+DairyC_s(C) /Dairy-c/
+MeatC_s(C) /Meat-c/
+PorkC_s(C) /Pork-c/
+PoultryC_s(C) /Poultry-c/
+MissLstockC_s(C) /MissLstock-c/
+GASHeatac_s(C) /GASHeat-c/
+OILac_s(C) /OIL-c/
+COALac_s(C) /COAL-c/
+AgricA(A,C)
+/
+ELEC-a.(Flower-c )
+GASHeat-a.(Flower-c )
+OIL-a.(Flower-c )
+COAL-a.(Flower-c )
+ENIT-a.(Rice-c,Flower-c,MissCrop-c )
+NEINT-a.(Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Rice-a.(Rice-c,Barley-c,Flower-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Barley-a.(Rice-c,Barley-c,Flower-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Bean-a.(Rice-c,Bean-c )
+Potato-a.(Rice-c,Potato-c )
+Vegi-a.(Rice-c,Bean-c,Vegi-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Fruit-a.(Rice-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Flower-a.(Rice-c,Flower-c,MissCrop-c )
+MissCrop-a.(Rice-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Dairy-a.(Rice-c,Barley-c,Bean-c,MissCrop-c,Dairy-c,Meat-c )
+Meat-a.(Rice-c,Barley-c,Bean-c,Potato-c,MissCrop-c,Dairy-c,Meat-c )
+Pork-a.(Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,MissCrop-c,Pork-c )
+Poultry-a.(Rice-c,Barley-c,Bean-c,Vegi-c,MissCrop-c,Poultry-c )
+MissLstock-a.(Rice-c,Barley-c,Bean-c,Potato-c,MissCrop-c,MissLstock-c )
+/
+EleccA(A,C)
+/
+ELEC-a.(ELEC-c )
+GASHeat-a.(ELEC-c )
+OIL-a.(ELEC-c )
+COAL-a.(ELEC-c )
+ENIT-a.(ELEC-c )
+NEINT-a.(ELEC-c )
+Rice-a.(ELEC-c )
+Barley-a.(ELEC-c )
+Bean-a.(ELEC-c )
+Potato-a.(ELEC-c )
+Vegi-a.(ELEC-c )
+Fruit-a.(ELEC-c )
+Flower-a.(ELEC-c )
+MissCrop-a.(ELEC-c )
+Dairy-a.(ELEC-c )
+Meat-a.(ELEC-c )
+Pork-a.(ELEC-c )
+Poultry-a.(ELEC-c )
+MissLstock-a.(ELEC-c )
+/
+FuelA(A,C)
+/
+ELEC-a.(GASHeat-c,OIL-c,COAL-c )
+GASHeat-a.(GASHeat-c,OIL-c,COAL-c )
+OIL-a.(GASHeat-c,OIL-c )
+COAL-a.(GASHeat-c,OIL-c,COAL-c )
+ENIT-a.(GASHeat-c,OIL-c,COAL-c )
+NEINT-a.(GASHeat-c,OIL-c,COAL-c )
+Rice-a.(GASHeat-c,OIL-c )
+Barley-a.(GASHeat-c,OIL-c )
+Bean-a.(OIL-c )
+Potato-a.(OIL-c )
+Vegi-a.(GASHeat-c,OIL-c,COAL-c )
+Fruit-a.(GASHeat-c,OIL-c,COAL-c )
+Flower-a.(GASHeat-c,OIL-c,COAL-c )
+MissCrop-a.(GASHeat-c,OIL-c )
+Dairy-a.(GASHeat-c,OIL-c )
+Meat-a.(GASHeat-c,OIL-c )
+Pork-a.(GASHeat-c,OIL-c,COAL-c )
+Poultry-a.(GASHeat-c,OIL-c,COAL-c )
+MissLstock-a.(GASHeat-c,OIL-c,COAL-c )
+/
+GC(AC) /CO2-c /
+SFuelA(A,C)
+/
+ELEC-a.(COAL-c )
+GASHeat-a.(COAL-c )
+COAL-a.(COAL-c )
+ENIT-a.(COAL-c )
+NEINT-a.(COAL-c )
+Vegi-a.(COAL-c )
+Fruit-a.(COAL-c )
+Flower-a.(COAL-c )
+Pork-a.(COAL-c )
+Poultry-a.(COAL-c )
+MissLstock-a.(COAL-c )
+/
+LFuelA(A,C)
+/
+ELEC-a.(GASHeat-c,OIL-c )
+GASHeat-a.(GASHeat-c,OIL-c )
+OIL-a.(GASHeat-c,OIL-c )
+COAL-a.(GASHeat-c,OIL-c )
+ENIT-a.(GASHeat-c,OIL-c )
+NEINT-a.(GASHeat-c,OIL-c )
+Rice-a.(GASHeat-c,OIL-c )
+Barley-a.(GASHeat-c,OIL-c )
+Bean-a.(OIL-c )
+Potato-a.(OIL-c )
+Vegi-a.(GASHeat-c,OIL-c )
+Fruit-a.(GASHeat-c,OIL-c )
+Flower-a.(GASHeat-c,OIL-c )
+MissCrop-a.(GASHeat-c,OIL-c )
+Dairy-a.(GASHeat-c,OIL-c )
+Meat-a.(GASHeat-c,OIL-c )
+Pork-a.(GASHeat-c,OIL-c )
+Poultry-a.(GASHeat-c,OIL-c )
+MissLstock-a.(GASHeat-c,OIL-c )
+/
+GfuelA(A,C)
+/
+ELEC-a.(GASHeat-c,OIL-c,COAL-c )
+GASHeat-a.(GASHeat-c,OIL-c,COAL-c )
+OIL-a.(GASHeat-c,OIL-c )
+COAL-a.(GASHeat-c,OIL-c,COAL-c )
+ENIT-a.(GASHeat-c,OIL-c,COAL-c )
+NEINT-a.(GASHeat-c,OIL-c,COAL-c )
+Rice-a.(GASHeat-c,OIL-c )
+Barley-a.(GASHeat-c,OIL-c )
+Bean-a.(OIL-c )
+Potato-a.(OIL-c )
+Vegi-a.(GASHeat-c,OIL-c,COAL-c )
+Fruit-a.(GASHeat-c,OIL-c,COAL-c )
+Flower-a.(GASHeat-c,OIL-c,COAL-c )
+MissCrop-a.(GASHeat-c,OIL-c )
+Dairy-a.(GASHeat-c,OIL-c )
+Meat-a.(GASHeat-c,OIL-c )
+Pork-a.(GASHeat-c,OIL-c,COAL-c )
+Poultry-a.(GASHeat-c,OIL-c,COAL-c )
+MissLstock-a.(GASHeat-c,OIL-c,COAL-c )
+/
+XPXC(C,A)
+/
+ELEC-c.(ELEC-a )
+GASHeat-c.(GASHeat-a )
+OIL-c.(OIL-a )
+COAL-c.(COAL-a )
+ENIT-c.(ENIT-a )
+NEINT-c.(NEINT-a )
+Rice-c.(Rice-a )
+Barley-c.(Barley-a )
+Bean-c.(Bean-a )
+Potato-c.(Potato-a )
+Vegi-c.(Vegi-a )
+Fruit-c.(Fruit-a )
+Flower-c.(Flower-a )
+MissCrop-c.(MissCrop-a )
+Dairy-c.(Dairy-a )
+Meat-c.(Meat-a )
+Pork-c.(Pork-a )
+Poultry-c.(Poultry-a )
+MissLstock-c.(MissLstock-a )
+/
+XAPA(C,A)
+/
+ELEC-c.(ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+ENIT-c.(ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+NEINT-c.(ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+Rice-c.(ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+Barley-c.(NEINT-a,Rice-a,Barley-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+Bean-c.(NEINT-a,Bean-a,Vegi-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+Potato-c.(NEINT-a,Potato-a,Meat-a,Pork-a,MissLstock-a )
+Vegi-c.(NEINT-a,Vegi-a,Pork-a,Poultry-a )
+Fruit-c.(NEINT-a )
+Flower-c.(ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Flower-a )
+MissCrop-c.(ENIT-a,NEINT-a,Vegi-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+Dairy-c.(NEINT-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,Dairy-a,Meat-a )
+Meat-c.(NEINT-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,Dairy-a,Meat-a )
+Pork-c.(NEINT-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,Pork-a )
+Poultry-c.(NEINT-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,Poultry-a )
+MissLstock-c.(NEINT-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,MissLstock-a )
+/
+XEPA(C,A)
+/
+GASHeat-c.(ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+OIL-c.(ELEC-a,GASHeat-a,OIL-a,COAL-a,ENIT-a,NEINT-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+COAL-c.(ELEC-a,GASHeat-a,COAL-a,ENIT-a,NEINT-a,Vegi-a,Fruit-a,Flower-a,Pork-a,Poultry-a,MissLstock-a )
+/
+FD(ACT) /GoV,S-I /
+FD_C(C,FD)
+/
+GASHeat-c.(S-I )
+OIL-c.(S-I )
+COAL-c.(S-I )
+ENIT-c.(S-I )
+NEINT-c.(GoV,S-I )
+Rice-c.(S-I )
+Barley-c.(S-I )
+Bean-c.(S-I )
+Potato-c.(S-I )
+Vegi-c.(S-I )
+Fruit-c.(S-I )
+Flower-c.(S-I )
+MissCrop-c.(S-I )
+Dairy-c.(S-I )
+Meat-c.(S-I )
+Pork-c.(S-I )
+Poultry-c.(S-I )
+MissLstock-c.(S-I )
+/
+F(AC) /Labor,Capital /
+L(F) /Labor /
+K(F) /Capital /
+INS(AC) /Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW /
+INSD(INS) /Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I /
+INSDN(INS) /ROW /
+H(INSD) /Household /
+XACH(H,C)
+/
+Household.ELEC-c
+Household.GASHeat-c
+Household.OIL-c
+Household.COAL-c
+Household.ENIT-c
+Household.NEINT-c
+Household.Rice-c
+Household.Barley-c
+Household.Bean-c
+Household.Potato-c
+Household.Vegi-c
+Household.Fruit-c
+Household.Flower-c
+Household.MissCrop-c
+Household.Dairy-c
+Household.Meat-c
+Household.Poultry-c
+Household.MissLstock-c
+/
+t
+/
+0*50
+/
+Alias(ACT,ACTPP);
+Alias(INS,INSP);
+Alias(AC,ACP);
+Alias(A,AP);
+Alias(C,CP);
+Alias(F,FP);
+Alias(L,LP);
+Alias(K,KP);
+Alias(H,HP);
+Alias(GC,GCP);
+ACNT(ACT)=yes;
+ACNT('Total')=no;
+Parameters
+Agri_single(A)
+/
+
+ELEC-a       0
+GASHeat-a    0
+OIL-a        0
+COAL-a       0
+ENIT-a       1
+NEINT-a      1
+Rice-a       1
+Barley-a     1
+Bean-a       1
+Potato-a     1
+Vegi-a       1
+Fruit-a      1
+Flower-a     1
+MissCrop-a   1
+Dairy-a      1
+Meat-a       1
+Pork-a       1
+Poultry-a    1
+MissLstock-a 1
+/
+Lfuel_single(A)
+/
+
+ELEC-a       1
+GASHeat-a    1
+OIL-a        1
+COAL-a       1
+ENIT-a       1
+NEINT-a      1
+Rice-a       1
+Barley-a     1
+Bean-a       0
+Potato-a     0
+Vegi-a       1
+Fruit-a      1
+Flower-a     1
+MissCrop-a   1
+Dairy-a      1
+Meat-a       1
+Pork-a       1
+Poultry-a    1
+MissLstock-a 1
+/
+Sfuel_single(A)
+/
+
+ELEC-a       0
+GASHeat-a    0
+COAL-a       0
+ENIT-a       0
+NEINT-a      0
+Vegi-a       0
+Fruit-a      0
+Flower-a     0
+Pork-a       0
+Poultry-a    0
+MissLstock-a 0
+/
+ELECC_single(A)
+/
+
+ELEC-a       0
+GASHeat-a    0
+OIL-a        0
+COAL-a       0
+ENIT-a       0
+NEINT-a      0
+Rice-a       0
+Barley-a     0
+Bean-a       0
+Potato-a     0
+Vegi-a       0
+Fruit-a      0
+Flower-a     0
+MissCrop-a   0
+Dairy-a      0
+Meat-a       0
+Pork-a       0
+Poultry-a    0
+MissLstock-a 0
+/
+K_single(A)
+/
+
+ELEC-a       0
+GASHeat-a    0
+OIL-a        0
+COAL-a       0
+ENIT-a       0
+NEINT-a      0
+Rice-a       0
+Barley-a     0
+Bean-a       0
+Potato-a     0
+Vegi-a       0
+Fruit-a      0
+Flower-a     0
+MissCrop-a   0
+Dairy-a      0
+Meat-a       0
+Pork-a       0
+Poultry-a    0
+MissLstock-a 0
+/
+L_single(A)
+/
+
+ELEC-a       0
+GASHeat-a    0
+OIL-a        0
+COAL-a       0
+ENIT-a       0
+NEINT-a      0
+Rice-a       0
+Barley-a     0
+Bean-a       0
+Potato-a     0
+Vegi-a       0
+Fruit-a      0
+Flower-a     0
+MissCrop-a   0
+Dairy-a      0
+Meat-a       0
+Pork-a       0
+Poultry-a    0
+MissLstock-a 0
+/
+;

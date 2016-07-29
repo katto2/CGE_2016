@@ -1,0 +1,2013 @@
+
+--- Job Base_2016.gms Start 07/14/16 10:46:59 WEX-WEI 23.7.3 x86_64/MS Windows     
+GAMS Rev 237  Copyright (C) 1987-2011 GAMS Development. All rights reserved
+Licensee: Environment and Economy Division               G111024:0541CN-WIN
+          Korea Environment Institute                                DC7264
+--- Starting compilation
+--- Base_2016.gms(19) 2 Mb
+--- .set_standard_recursive_2016.txt(812) 3 Mb
+--- Base_2016.gms(196) 3 Mb
+--- .b_sam_model_g_pos.csv(120) 3 Mb
+--- Base_2016.gms(201) 3 Mb
+--- .b_sam_model_ng_pos.csv(120) 3 Mb
+--- Base_2016.gms(206) 3 Mb
+--- .GHG_model_p_20160621.csv(17) 3 Mb
+--- Base_2016.gms(736) 3 Mb
+--- .gtaxp_BAU.txt(26) 3 Mb
+--- Base_2016.gms(737) 3 Mb
+--- .gtaxp_ctax_1.txt(26) 3 Mb
+--- Base_2016.gms(762) 3 Mb
+--- .sigmaq.txt(53) 3 Mb
+--- Base_2016.gms(772) 3 Mb
+--- .lgrow.txt(26) 3 Mb
+--- Base_2016.gms(773) 3 Mb
+--- .Oldpopg.txt(26) 3 Mb
+--- Base_2016.gms(774) 3 Mb
+--- .TBg.txt(26) 3 Mb
+--- Base_2016.gms(1893) 3 Mb
+--- Starting execution: elapsed 0:00:00.024
+--- Base_2016.gms(2894) 8 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 11 Mb
+--- LOOPS t = 0
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,349 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 9 Mb
+--- Executing PATH: elapsed 0:00:00.134
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  4.2528e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5095e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  1.8961e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             8.2308e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 8.2308e-007           I 0.0e+000 4.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  8.5018e-006 eqn: (ActRp(Auto-a))
+Inf-Norm of Normal Map. . . . .  4.2528e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  4.2528e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  4.2528e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  5.8585e-003 eqn: (XDS(Commercial-c))
+Two-Norm of Grad Fischer Fcn. .  1.0813e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  4.2528e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.018000
+Residual. . . . . . . . 8.230770e-007
+
+--- Restarting execution
+--- Base_2016.gms(2895) 6 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:00.311
+--- Base_2016.gms(2894) 7 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 10 Mb
+--- LOOPS t = 1
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 8 Mb
+--- Executing PATH: elapsed 0:00:00.369
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.4300e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5095e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  1.9104e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.4581e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 2.9007e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 2.9007e+002           I 0.0e+000 2.1e+002 (HKTED1(Commerci)
+    1     1     3     3 4.9157e-002  1.0e+000 SO 0.0e+000 4.3e-002 (HKTED1(Commerci)
+    2     1     4     4 1.8340e-007  1.0e+000 SO 0.0e+000 1.8e-007 (NEGDL2(Oilpro-c)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  3.4206e-004 eqn: (AspPr(Oil-c))
+Inf-Norm of Normal Map. . . . .  1.7847e-007 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Minimum Map . . . .  1.7847e-007 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Fischer Function. .  1.7847e-007 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Grad Fischer Fcn. .  3.4007e-003 eqn: (CapM(Capital))
+Two-Norm of Grad Fischer Fcn. .  7.4186e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.3285e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7847e-007 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Maximum of Grad F . . . . . . .  6.1030e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.129000
+Residual. . . . . . . . 1.834034e-007
+
+--- Restarting execution
+--- Base_2016.gms(2895) 6 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:00.815
+--- Base_2016.gms(2894) 8 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 11 Mb
+--- LOOPS t = 2
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 9 Mb
+--- Executing PATH: elapsed 0:00:00.873
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.3285e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.4524e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  6.1030e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.9471e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  1.9982e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.4809e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.1511e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.1511e+002           I 0.0e+000 2.4e+002 (HKTED1(Commerci)
+    1     1     3     3 6.5656e-002  1.0e+000 SO 0.0e+000 5.7e-002 (HKTED1(Commerci)
+    2     1     4     4 5.2151e-008  1.0e+000 SO 0.0e+000 3.0e-008 (ESS(Marine-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  3.2760e-004 eqn: (ActR(Commercial-a))
+Inf-Norm of Normal Map. . . . .  3.0428e-008 eqn: (ESS(Marine-c))
+Inf-Norm of Minimum Map . . . .  3.0428e-008 eqn: (ESS(Marine-c))
+Inf-Norm of Fischer Function. .  3.0428e-008 eqn: (ESS(Marine-c))
+Inf-Norm of Grad Fischer Fcn. .  4.4521e-003 eqn: (VAEPr1(Electronics-a))
+Two-Norm of Grad Fischer Fcn. .  1.0251e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.3817e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  3.0428e-008 eqn: (ESS(Marine-c))
+Maximum of Grad F . . . . . . .  6.3830e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.065000
+Residual. . . . . . . . 5.215104e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 6 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:01.142
+--- Base_2016.gms(2894) 8 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 11 Mb
+--- LOOPS t = 3
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 9 Mb
+--- Executing PATH: elapsed 0:00:01.199
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.3817e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.4666e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  6.3830e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.0401e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  2.0891e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.4948e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.1289e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.1289e+002           I 0.0e+000 2.4e+002 (HKTED1(Commerci)
+    1     1     3     3 6.3033e-002  1.0e+000 SO 0.0e+000 5.4e-002 (HKTED1(Commerci)
+    2     1     4     4 4.6923e-008  1.0e+000 SO 0.0e+000 3.4e-008 (NEGDL2(GAS-c,EL)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  2.6149e-004 eqn: (ComPr(Semidis-c))
+Inf-Norm of Normal Map. . . . .  3.4453e-008 eqn: (NEGDL2(GAS-c,ELEC-a))
+Inf-Norm of Minimum Map . . . .  3.4453e-008 eqn: (NEGDL2(GAS-c,ELEC-a))
+Inf-Norm of Fischer Function. .  3.4453e-008 eqn: (NEGDL2(GAS-c,ELEC-a))
+Inf-Norm of Grad Fischer Fcn. .  4.4986e-003 eqn: (XDS(Commercial-c))
+Two-Norm of Grad Fischer Fcn. .  8.7604e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.4353e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  3.4453e-008 eqn: (NEGDL2(GAS-c,ELEC-a))
+Maximum of Grad F . . . . . . .  6.6680e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.106000
+Residual. . . . . . . . 4.692278e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 7 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:01.523
+--- Base_2016.gms(2894) 8 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 11 Mb
+--- LOOPS t = 4
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 9 Mb
+--- Executing PATH: elapsed 0:00:01.629
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.4353e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.4875e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  6.6680e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.0863e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  2.1817e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.5172e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 4.0064e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 4.0064e+002           I 0.0e+000 2.9e+002 (HKTED1(Commerci)
+    1     1     3     3 1.0531e+001  1.0e+000 SO 0.0e+000 9.2e+000 (ESS(Marine-c))
+    2     1     4     4 2.9059e-002  1.0e+000 SO 0.0e+000 1.9e-002 (XDS(Marine-c))
+    3     1     5     5 3.9328e-007  1.0e+000 SO 0.0e+000 2.8e-007 (XDS(Marine-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  4.5770e-005 eqn: (ProdPr(IS-c))
+Inf-Norm of Normal Map. . . . .  2.8015e-007 eqn: (XDS(Marine-c))
+Inf-Norm of Minimum Map . . . .  2.8015e-007 eqn: (XDS(Marine-c))
+Inf-Norm of Fischer Function. .  2.8015e-007 eqn: (XDS(Marine-c))
+Inf-Norm of Grad Fischer Fcn. .  1.5578e-002 eqn: (ESS(Marine-c))
+Two-Norm of Grad Fischer Fcn. .  2.6370e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.4927e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  2.8015e-007 eqn: (XDS(Marine-c))
+Maximum of Grad F . . . . . . .  6.9806e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 3
+Minor Iterations. . . . 3
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 5
+Gradient Evaluations. . 5
+Total Time. . . . . . . 0.129000
+Residual. . . . . . . . 3.932798e-007
+
+--- Restarting execution
+--- Base_2016.gms(2895) 7 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:02.003
+--- Base_2016.gms(2894) 9 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 11 Mb
+--- LOOPS t = 5
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 9 Mb
+--- Executing PATH: elapsed 0:00:02.111
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.4927e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.6160e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  6.9806e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.1369e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  2.2792e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.6460e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 4.0140e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 4.0140e+002           I 0.0e+000 3.3e+002 (HKTED1(Commerci)
+    1     1     3     3 1.8798e-001  1.0e+000 SO 0.0e+000 9.1e-002 (HKTED1(Semidis-)
+    2     1     4     4 3.3893e-006  1.0e+000 SO 0.0e+000 2.2e-006 (ESS(Marine-c))
+    3     1     5     5 1.0198e-007  1.0e+000 SO 0.0e+000 1.0e-007 (XDD(Dairy-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  8.3983e-004 eqn: (ActR(Commercial-a))
+Inf-Norm of Normal Map. . . . .  1.0159e-007 eqn: (XDD(Dairy-c))
+Inf-Norm of Minimum Map . . . .  1.0159e-007 eqn: (XDD(Dairy-c))
+Inf-Norm of Fischer Function. .  1.0159e-007 eqn: (XDD(Dairy-c))
+Inf-Norm of Grad Fischer Fcn. .  5.2167e-003 eqn: (XDD(Commercial-c))
+Two-Norm of Grad Fischer Fcn. .  7.9650e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.5537e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.0159e-007 eqn: (XDD(Dairy-c))
+Maximum of Grad F . . . . . . .  7.3152e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 3
+Minor Iterations. . . . 3
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 5
+Gradient Evaluations. . 5
+Total Time. . . . . . . 0.113000
+Residual. . . . . . . . 1.019795e-007
+
+--- Restarting execution
+--- Base_2016.gms(2895) 7 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:02.461
+--- Base_2016.gms(2894) 9 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 12 Mb
+--- LOOPS t = 6
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 10 Mb
+--- Executing PATH: elapsed 0:00:02.591
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.5537e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.6831e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  7.3152e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.1911e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  2.3849e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7151e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.8841e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.8841e+002           I 0.0e+000 3.1e+002 (HKTED1(Commerci)
+    1     1     3     3 8.8297e-002  1.0e+000 SO 0.0e+000 7.4e-002 (HKTED1(Commerci)
+    2     1     4     4 1.6735e-006  1.0e+000 SO 0.0e+000 1.7e-006 (XDD(Dairy-c))
+    3     1     5     5 2.2235e-007  1.0e+000 SO 0.0e+000 2.2e-007 (NEGDL2(Oilpro-c)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  1.0338e-004 eqn: (AspPr(nonISmetal-c))
+Inf-Norm of Normal Map. . . . .  2.2231e-007 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Minimum Map . . . .  2.2231e-007 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Fischer Function. .  2.2231e-007 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Grad Fischer Fcn. .  3.7829e-003 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Two-Norm of Grad Fischer Fcn. .  6.0717e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.6142e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  2.2231e-007 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Maximum of Grad F . . . . . . .  7.6487e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 3
+Minor Iterations. . . . 3
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 5
+Gradient Evaluations. . 5
+Total Time. . . . . . . 0.085000
+Residual. . . . . . . . 2.223454e-007
+
+--- Restarting execution
+--- Base_2016.gms(2895) 7 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:02.908
+--- Base_2016.gms(2894) 10 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 12 Mb
+--- LOOPS t = 7
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 10 Mb
+--- Executing PATH: elapsed 0:00:03.019
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.6142e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.6841e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  7.6487e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.2451e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  2.4939e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7156e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.7661e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.7661e+002           I 0.0e+000 3.0e+002 (HKTED1(Commerci)
+    1     1     3     3 7.9172e-002  1.0e+000 SO 0.0e+000 6.8e-002 (HKTED1(Commerci)
+    2     1     4     4 4.5511e-008  1.0e+000 SO 0.0e+000 2.6e-008 (XDS(Marine-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.0944e-004 eqn: (ActR(Commercial-a))
+Inf-Norm of Normal Map. . . . .  2.5774e-008 eqn: (XDS(Marine-c))
+Inf-Norm of Minimum Map . . . .  2.5774e-008 eqn: (XDS(Marine-c))
+Inf-Norm of Fischer Function. .  2.5774e-008 eqn: (XDS(Marine-c))
+Inf-Norm of Grad Fischer Fcn. .  1.3227e-002 eqn: (ESS(Semidis-c))
+Two-Norm of Grad Fischer Fcn. .  2.2555e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.6749e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  2.5774e-008 eqn: (XDS(Marine-c))
+Maximum of Grad F . . . . . . .  7.9860e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.168000
+Residual. . . . . . . . 4.551093e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 7 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:03.364
+--- Base_2016.gms(2894) 10 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 12 Mb
+--- LOOPS t = 8
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 10 Mb
+--- Executing PATH: elapsed 0:00:03.442
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.6749e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.6881e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  7.9860e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.2997e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  2.6039e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7189e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.7490e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.7490e+002           I 0.0e+000 3.1e+002 (HKTED1(Commerci)
+    1     1     3     3 6.6385e-002  1.0e+000 SO 0.0e+000 5.9e-002 (HKTED1(Commerci)
+    2     1     4     4 8.0383e-006  1.0e+000 SO 0.0e+000 8.0e-006 (XDD(Dairy-c))
+    3     1     5     5 7.3337e-009  1.0e+000 SO 0.0e+000 6.5e-009 (CapM(Capital))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2414e-004 eqn: (ActR(Commercial-a))
+Inf-Norm of Normal Map. . . . .  6.5193e-009 eqn: (CapM(Capital))
+Inf-Norm of Minimum Map . . . .  6.5193e-009 eqn: (CapM(Capital))
+Inf-Norm of Fischer Function. .  6.5193e-009 eqn: (CapM(Capital))
+Inf-Norm of Grad Fischer Fcn. .  5.2159e-003 eqn: (XDS(Commercial-c))
+Two-Norm of Grad Fischer Fcn. .  7.1549e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.7366e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  6.5193e-009 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  8.3326e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 3
+Minor Iterations. . . . 3
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 5
+Gradient Evaluations. . 5
+Total Time. . . . . . . 0.079000
+Residual. . . . . . . . 7.333717e-009
+
+--- Restarting execution
+--- Base_2016.gms(2895) 8 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:03.751
+--- Base_2016.gms(2894) 10 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 13 Mb
+--- LOOPS t = 9
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 11 Mb
+--- Executing PATH: elapsed 0:00:03.814
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.7366e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7092e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  8.3326e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.3557e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  2.7156e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7406e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.7009e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.7009e+002           I 0.0e+000 3.0e+002 (HKTED1(Commerci)
+    1     1     3     3 6.7279e-002  1.0e+000 SO 0.0e+000 6.0e-002 (HKTED1(Commerci)
+    2     1     4     4 1.6783e-008  1.0e+000 SO 0.0e+000 1.6e-008 (NEGDL2(LNG-c,GA)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  1.0773e-003 eqn: (ActR(Commercial-a))
+Inf-Norm of Normal Map. . . . .  1.6094e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Inf-Norm of Minimum Map . . . .  1.6094e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Inf-Norm of Fischer Function. .  1.6094e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Inf-Norm of Grad Fischer Fcn. .  3.4237e-003 eqn: (XEPr1(Commercial-a))
+Two-Norm of Grad Fischer Fcn. .  5.9983e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.7983e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.6094e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Maximum of Grad F . . . . . . .  8.6827e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.065000
+Residual. . . . . . . . 1.678315e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 8 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:04.072
+--- Base_2016.gms(2894) 11 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 13 Mb
+--- LOOPS t = 10
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 11 Mb
+--- Executing PATH: elapsed 0:00:04.133
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.7983e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7120e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  8.6827e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.4123e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  2.8292e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7431e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.6452e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.6452e+002           I 0.0e+000 3.0e+002 (HKTED1(Commerci)
+    1     1     3     3 6.1829e-002  1.0e+000 SO 0.0e+000 5.6e-002 (HKTED1(Commerci)
+    2     1     4     4 1.6842e-008  1.0e+000 SO 0.0e+000 1.3e-008 (NEGDL2(LNG-c,GA)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  1.1059e-003 eqn: (ActR(Commercial-a))
+Inf-Norm of Normal Map. . . . .  1.3431e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Inf-Norm of Minimum Map . . . .  1.3431e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Inf-Norm of Fischer Function. .  1.3431e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Inf-Norm of Grad Fischer Fcn. .  5.2903e-003 eqn: (CapM(Capital))
+Two-Norm of Grad Fischer Fcn. .  1.0009e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.8601e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.3431e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Maximum of Grad F . . . . . . .  9.0375e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.105000
+Residual. . . . . . . . 1.684249e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 8 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:04.480
+--- Base_2016.gms(2894) 11 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 13 Mb
+--- LOOPS t = 11
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 11 Mb
+--- Executing PATH: elapsed 0:00:04.547
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.8601e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7121e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  9.0375e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.4697e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  2.9441e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7430e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.5557e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.5557e+002           I 0.0e+000 3.0e+002 (HKTED1(Commerci)
+    1     1     3     3 5.6620e-002  1.0e+000 SO 0.0e+000 5.1e-002 (HKTED1(Commerci)
+    2     1     4     4 1.8794e-008  1.0e+000 SO 0.0e+000 1.1e-008 (NEGDL2(LNG-c,GA)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  2.1197e-004 eqn: (AspPr(ELEC-c))
+Inf-Norm of Normal Map. . . . .  1.1401e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Inf-Norm of Minimum Map . . . .  1.1401e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Inf-Norm of Fischer Function. .  1.1401e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Inf-Norm of Grad Fischer Fcn. .  9.8565e-003 eqn: (XEPr1(Commercial-a))
+Two-Norm of Grad Fischer Fcn. .  1.0685e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.9219e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.1401e-008 eqn: (NEGDL2(LNG-c,GAS-a))
+Maximum of Grad F . . . . . . .  9.3956e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.050000
+Residual. . . . . . . . 1.879446e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 8 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:04.833
+--- Base_2016.gms(2894) 12 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 14 Mb
+--- LOOPS t = 12
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 12 Mb
+--- Executing PATH: elapsed 0:00:04.900
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.9219e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7087e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  9.3956e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.5276e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  3.0599e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7387e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.6871e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.6871e+002           I 0.0e+000 3.2e+002 (HKTED1(Commerci)
+    1     1     3     3 6.1357e-002  1.0e+000 SO 0.0e+000 4.7e-002 (HKTED1(Commerci)
+    2     1     4     4 1.4783e-005  1.0e+000 SO 0.0e+000 1.5e-005 (XDD(Dairy-c))
+    3     1     5     5 1.4786e-005  1.0e+000 SO 0.0e+000 1.5e-005 (XDD(Dairy-c))
+    4     1     6     6 6.1108e-008  1.0e+000 SO 0.0e+000 6.1e-008 (XDD(Dairy-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.8826e-005 eqn: (ImPr(Semidis-c))
+Inf-Norm of Normal Map. . . . .  6.0896e-008 eqn: (XDD(Dairy-c))
+Inf-Norm of Minimum Map . . . .  6.0896e-008 eqn: (XDD(Dairy-c))
+Inf-Norm of Fischer Function. .  6.0896e-008 eqn: (XDD(Dairy-c))
+Inf-Norm of Grad Fischer Fcn. .  3.2889e-003 eqn: (XDS(Commercial-c))
+Two-Norm of Grad Fischer Fcn. .  5.9109e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.9849e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  6.0896e-008 eqn: (XDD(Dairy-c))
+Maximum of Grad F . . . . . . .  9.7678e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 4
+Minor Iterations. . . . 4
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 6
+Gradient Evaluations. . 6
+Total Time. . . . . . . 0.064000
+Residual. . . . . . . . 6.110842e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 9 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:05.171
+--- Base_2016.gms(2894) 12 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 14 Mb
+--- LOOPS t = 13
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 12 Mb
+--- Executing PATH: elapsed 0:00:05.236
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.9849e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7252e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  9.7678e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.5876e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  3.1779e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7554e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.6750e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.6750e+002           I 0.0e+000 3.2e+002 (HKTED1(Commerci)
+    1     1     3     3 5.6198e-002  1.0e+000 SO 0.0e+000 4.9e-002 (HKTED1(Commerci)
+    2     1     4     4 1.9272e-008  1.0e+000 SO 0.0e+000 1.2e-008 (NEGDL2(Oilpro-c)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  9.4266e-005 eqn: (ActRp(Machine-a))
+Inf-Norm of Normal Map. . . . .  1.1809e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Minimum Map . . . .  1.1809e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Fischer Function. .  1.1809e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Grad Fischer Fcn. .  5.3078e-003 eqn: (XEPr1(Commercial-a))
+Two-Norm of Grad Fischer Fcn. .  7.2078e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.0478e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.1809e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Maximum of Grad F . . . . . . .  1.0144e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.080000
+Residual. . . . . . . . 1.927235e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 9 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:05.528
+--- Base_2016.gms(2894) 12 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 14 Mb
+--- LOOPS t = 14
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 12 Mb
+--- Executing PATH: elapsed 0:00:05.591
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.0478e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7254e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.0144e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.6484e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  3.2981e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7551e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.6847e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.6847e+002           I 0.0e+000 3.3e+002 (HKTED1(Commerci)
+    1     1     3     3 5.7118e-002  1.0e+000 SO 0.0e+000 4.6e-002 (HKTED1(Commerci)
+    2     1     4     4 5.4772e-008  1.0e+000 SO 0.0e+000 3.6e-008 (NEGDL2(Oilpro-c)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  7.8642e-005 eqn: (ActR(Const-a))
+Inf-Norm of Normal Map. . . . .  3.5820e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Minimum Map . . . .  3.5820e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Fischer Function. .  3.5820e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Grad Fischer Fcn. .  1.3356e-002 eqn: (ESS(Semidis-c))
+Two-Norm of Grad Fischer Fcn. .  2.2507e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.1117e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  3.5820e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Maximum of Grad F . . . . . . .  1.0531e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.089000
+Residual. . . . . . . . 5.477249e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 10 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:05.926
+--- Base_2016.gms(2894) 13 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 15 Mb
+--- LOOPS t = 15
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 13 Mb
+--- Executing PATH: elapsed 0:00:06.003
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.1117e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7394e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.0531e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.7108e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  3.4198e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7695e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.6413e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.6413e+002           I 0.0e+000 3.2e+002 (HKTED1(Commerci)
+    1     1     3     3 5.2267e-002  1.0e+000 SO 0.0e+000 4.7e-002 (HKTED1(Commerci)
+    2     1     4     4 9.3266e-009  1.0e+000 SO 0.0e+000 5.3e-009 (NEGDL2(Oilpro-c)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  3.6137e-005 eqn: (AspPr(Mineral-c))
+Inf-Norm of Normal Map. . . . .  5.3187e-009 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Minimum Map . . . .  5.3187e-009 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Fischer Function. .  5.3187e-009 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Grad Fischer Fcn. .  5.8117e-003 eqn: (XDD(Commercial-c))
+Two-Norm of Grad Fischer Fcn. .  8.5871e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.1749e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.3187e-009 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Maximum of Grad F . . . . . . .  1.0918e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.044000
+Residual. . . . . . . . 9.326636e-009
+
+--- Restarting execution
+--- Base_2016.gms(2895) 10 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:06.281
+--- Base_2016.gms(2894) 13 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 15 Mb
+--- LOOPS t = 16
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 13 Mb
+--- Executing PATH: elapsed 0:00:06.345
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.1749e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7301e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.0918e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.7733e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  3.5434e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7593e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.6199e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.6199e+002           I 0.0e+000 3.3e+002 (HKTED1(Commerci)
+    1     1     3     3 5.1278e-002  1.0e+000 SO 0.0e+000 4.3e-002 (HKTED1(Commerci)
+    2     1     4     4 2.8410e-008  1.0e+000 SO 0.0e+000 1.5e-008 (AspPr(Oilpro-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  8.6947e-004 eqn: (AspPr(Oilpro-c))
+Inf-Norm of Normal Map. . . . .  1.5368e-008 eqn: (AspPr(Oilpro-c))
+Inf-Norm of Minimum Map . . . .  1.5367e-008 eqn: (AspPr(Oilpro-c))
+Inf-Norm of Fischer Function. .  1.5368e-008 eqn: (AspPr(Oilpro-c))
+Inf-Norm of Grad Fischer Fcn. .  5.2321e-003 eqn: (CapM(Capital))
+Two-Norm of Grad Fischer Fcn. .  1.1450e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.2391e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.5368e-008 eqn: (AspPr(Oilpro-c))
+Maximum of Grad F . . . . . . .  1.1316e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.070000
+Residual. . . . . . . . 2.841030e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 10 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:06.636
+--- Base_2016.gms(2894) 13 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 15 Mb
+--- LOOPS t = 17
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 13 Mb
+--- Executing PATH: elapsed 0:00:06.699
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.2391e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7406e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.1316e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.8374e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  3.6679e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7697e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.6235e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.6235e+002           I 0.0e+000 3.3e+002 (HKTED1(Commerci)
+    1     1     3     3 4.9532e-002  1.0e+000 SO 0.0e+000 4.3e-002 (HKTED1(Commerci)
+    2     1     4     4 3.4361e-008  1.0e+000 SO 0.0e+000 2.9e-008 (NEGDL2(Oilpro-c)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  3.2375e-004 eqn: (ActR(Commercial-a))
+Inf-Norm of Normal Map. . . . .  2.9162e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Minimum Map . . . .  2.9162e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Fischer Function. .  2.9162e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Grad Fischer Fcn. .  5.7560e-003 eqn: (CapM(Capital))
+Two-Norm of Grad Fischer Fcn. .  9.4055e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.3036e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  2.9162e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Maximum of Grad F . . . . . . .  1.1720e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.065000
+Residual. . . . . . . . 3.436087e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 10 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:07.013
+--- Base_2016.gms(2894) 14 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 16 Mb
+--- LOOPS t = 18
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 14 Mb
+--- Executing PATH: elapsed 0:00:07.079
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.3036e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7485e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.1720e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.9025e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  3.7945e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7777e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.4304e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.4304e+002           I 0.0e+000 3.1e+002 (HKTED1(Commerci)
+    1     1     3     3 4.3190e-002  1.0e+000 SO 0.0e+000 3.9e-002 (HKTED1(Commerci)
+    2     1     4     4 8.9504e-008  1.0e+000 SO 0.0e+000 8.9e-008 (NEGDL2(GAS-c,EL)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  2.4382e-004 eqn: (ProdPr(Commercial-c))
+Inf-Norm of Normal Map. . . . .  8.8690e-008 eqn: (NEGDL2(GAS-c,ELEC-a))
+Inf-Norm of Minimum Map . . . .  8.8690e-008 eqn: (NEGDL2(GAS-c,ELEC-a))
+Inf-Norm of Fischer Function. .  8.8690e-008 eqn: (NEGDL2(GAS-c,ELEC-a))
+Inf-Norm of Grad Fischer Fcn. .  1.2106e-002 eqn: (CapM(Capital))
+Two-Norm of Grad Fischer Fcn. .  1.5239e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.3672e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  8.8690e-008 eqn: (NEGDL2(GAS-c,ELEC-a))
+Maximum of Grad F . . . . . . .  1.2120e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.042000
+Residual. . . . . . . . 8.950422e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 11 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:07.363
+--- Base_2016.gms(2894) 14 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 17 Mb
+--- LOOPS t = 19
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 14 Mb
+--- Executing PATH: elapsed 0:00:07.428
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.3672e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7391e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.2120e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  1.9670e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  3.9215e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7675e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.4767e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.4767e+002           I 0.0e+000 3.2e+002 (HKTED1(Commerci)
+    1     1     3     3 4.3445e-002  1.0e+000 SO 0.0e+000 3.8e-002 (HKTED1(Commerci)
+    2     1     4     4 5.7964e-007  1.0e+000 SO 0.0e+000 4.4e-007 (XDD(Meat-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  2.1973e-004 eqn: (ActRp(Semidis-a))
+Inf-Norm of Normal Map. . . . .  4.3519e-007 eqn: (XDD(Meat-c))
+Inf-Norm of Minimum Map . . . .  4.3519e-007 eqn: (XDD(Meat-c))
+Inf-Norm of Fischer Function. .  4.3519e-007 eqn: (XDD(Meat-c))
+Inf-Norm of Grad Fischer Fcn. .  1.1744e-002 eqn: (ComMENCN(Meat-c))
+Two-Norm of Grad Fischer Fcn. .  1.8023e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4319e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  4.3519e-007 eqn: (XDD(Meat-c))
+Maximum of Grad F . . . . . . .  1.2533e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.048000
+Residual. . . . . . . . 5.796408e-007
+
+--- Restarting execution
+--- Base_2016.gms(2895) 11 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:07.751
+--- Base_2016.gms(2894) 14 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 17 Mb
+--- LOOPS t = 20
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 14 Mb
+--- Executing PATH: elapsed 0:00:07.817
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4319e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7530e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.2533e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  2.0334e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  4.0499e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7813e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.5238e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.5238e+002           I 0.0e+000 3.2e+002 (HKTED1(Commerci)
+    1     1     3     3 4.3244e-002  1.0e+000 SO 0.0e+000 3.8e-002 (HKTED1(Commerci)
+    2     1     4     4 9.0124e-009  1.0e+000 SO 0.0e+000 4.5e-009 (NEGDL2(Oil-c,Ke)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.8574e-004 eqn: (ActR(Commercial-a))
+Inf-Norm of Normal Map. . . . .  4.4847e-009 eqn: (NEGDL2(Oil-c,Kerosene-a))
+Inf-Norm of Minimum Map . . . .  4.4847e-009 eqn: (NEGDL2(Oil-c,Kerosene-a))
+Inf-Norm of Fischer Function. .  4.4847e-009 eqn: (NEGDL2(Oil-c,Kerosene-a))
+Inf-Norm of Grad Fischer Fcn. .  5.0416e-003 eqn: (XEPr1(Commercial-a))
+Two-Norm of Grad Fischer Fcn. .  8.3319e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4974e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  4.4847e-009 eqn: (NEGDL2(Oil-c,Kerosene-a))
+Maximum of Grad F . . . . . . .  1.2955e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.069000
+Residual. . . . . . . . 9.012449e-009
+
+--- Restarting execution
+--- Base_2016.gms(2895) 11 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:08.113
+--- Base_2016.gms(2894) 15 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 17 Mb
+--- LOOPS t = 21
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 15 Mb
+--- Executing PATH: elapsed 0:00:08.214
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.4974e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7696e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.2955e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  2.1014e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  4.1807e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.7979e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.4102e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.4102e+002           I 0.0e+000 3.1e+002 (HKTED1(Commerci)
+    1     1     3     3 3.9997e-002  1.0e+000 SO 0.0e+000 3.5e-002 (HKTED1(Commerci)
+    2     1     4     4 7.9596e-008  1.0e+000 SO 0.0e+000 7.9e-008 (NEGDL2(Oil-c,Oi)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  3.0541e-005 eqn: (ActR(Public-a))
+Inf-Norm of Normal Map. . . . .  7.9308e-008 eqn: (NEGDL2(Oil-c,Oilpro-a))
+Inf-Norm of Minimum Map . . . .  7.9308e-008 eqn: (NEGDL2(Oil-c,Oilpro-a))
+Inf-Norm of Fischer Function. .  7.9308e-008 eqn: (NEGDL2(Oil-c,Oilpro-a))
+Inf-Norm of Grad Fischer Fcn. .  6.8674e-003 eqn: (XDS(Commercial-c))
+Two-Norm of Grad Fischer Fcn. .  1.1753e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.5635e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  7.9308e-008 eqn: (NEGDL2(Oil-c,Oilpro-a))
+Maximum of Grad F . . . . . . .  1.3381e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.091000
+Residual. . . . . . . . 7.959644e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 11 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:08.583
+--- Base_2016.gms(2894) 15 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 18 Mb
+--- LOOPS t = 22
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 15 Mb
+--- Executing PATH: elapsed 0:00:08.682
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.5635e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.7881e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.3381e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  2.1700e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  4.3128e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.8164e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.4198e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.4198e+002           I 0.0e+000 3.1e+002 (HKTED1(Commerci)
+    1     1     3     3 3.9161e-002  1.0e+000 SO 0.0e+000 3.5e-002 (HKTED1(Commerci)
+    2     1     4     4 2.6007e-008  1.0e+000 SO 0.0e+000 2.5e-008 (XDD(Dairy-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.3122e-005 eqn: (AspPr(Commercial-c))
+Inf-Norm of Normal Map. . . . .  2.5367e-008 eqn: (XDD(Dairy-c))
+Inf-Norm of Minimum Map . . . .  2.5367e-008 eqn: (XDD(Dairy-c))
+Inf-Norm of Fischer Function. .  2.5367e-008 eqn: (XDD(Dairy-c))
+Inf-Norm of Grad Fischer Fcn. .  1.7878e-003 eqn: (XEPr1(Commercial-a))
+Two-Norm of Grad Fischer Fcn. .  3.0058e-003
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.6303e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  2.5367e-008 eqn: (XDD(Dairy-c))
+Maximum of Grad F . . . . . . .  1.3816e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 2
+Minor Iterations. . . . 2
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 4
+Gradient Evaluations. . 4
+Total Time. . . . . . . 0.093000
+Residual. . . . . . . . 2.600748e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 11 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:09.053
+--- Base_2016.gms(2894) 12 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 16 Mb
+--- LOOPS t = 23
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 14 Mb
+--- Executing PATH: elapsed 0:00:09.157
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.6303e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.8063e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.3816e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  2.2399e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  4.4474e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.8346e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.3961e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.3961e+002           I 0.0e+000 3.1e+002 (HKTED1(Commerci)
+    1     1     3     3 3.7730e-002  1.0e+000 SO 0.0e+000 3.4e-002 (HKTED1(Commerci)
+    2     1     4     4 2.0828e-005  1.0e+000 SO 0.0e+000 2.1e-005 (XDD(Dairy-c))
+    3     1     5     5 1.7244e-005  1.0e+000 SO 0.0e+000 1.7e-005 (XDD(Dairy-c))
+    4     1     6     6 4.6689e-009  1.0e+000 SO 0.0e+000 3.5e-009 (ESS(Electronics)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.3108e-005 eqn: (ActR(Public-a))
+Inf-Norm of Normal Map. . . . .  3.4852e-009 eqn: (ESS(Electronics-c))
+Inf-Norm of Minimum Map . . . .  3.4852e-009 eqn: (ESS(Electronics-c))
+Inf-Norm of Fischer Function. .  3.4852e-009 eqn: (ESS(Electronics-c))
+Inf-Norm of Grad Fischer Fcn. .  1.3431e-002 eqn: (CapM(Capital))
+Two-Norm of Grad Fischer Fcn. .  1.8387e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.6977e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  3.4852e-009 eqn: (ESS(Electronics-c))
+Maximum of Grad F . . . . . . .  1.4257e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 4
+Minor Iterations. . . . 4
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 6
+Gradient Evaluations. . 6
+Total Time. . . . . . . 0.086000
+Residual. . . . . . . . 4.668924e-009
+
+--- Restarting execution
+--- Base_2016.gms(2895) 12 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:09.511
+--- Base_2016.gms(2894) 13 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 16 Mb
+--- LOOPS t = 24
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 14 Mb
+--- Executing PATH: elapsed 0:00:09.606
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.6977e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.8238e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.4257e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  2.3110e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  4.5840e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.8521e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.4628e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.4628e+002           I 0.0e+000 3.2e+002 (HKTED1(Commerci)
+    1     1     3     3 3.7790e-002  1.0e+000 SO 0.0e+000 3.4e-002 (HKTED1(Commerci)
+    2     1     4     4 1.7451e-005  1.0e+000 SO 0.0e+000 1.7e-005 (XDD(Dairy-c))
+    3     1     5     5 4.6131e-009  1.0e+000 SO 0.0e+000 2.8e-009 (XDS(Commercial-)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.9453e-005 eqn: (AspPr(Mineral-c))
+Inf-Norm of Normal Map. . . . .  2.7940e-009 eqn: (XDS(Commercial-c))
+Inf-Norm of Minimum Map . . . .  2.7940e-009 eqn: (XDS(Commercial-c))
+Inf-Norm of Fischer Function. .  2.7940e-009 eqn: (XDS(Commercial-c))
+Inf-Norm of Grad Fischer Fcn. .  1.2374e-002 eqn: (XDS(Commercial-c))
+Two-Norm of Grad Fischer Fcn. .  1.9490e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.7659e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  2.7940e-009 eqn: (XDS(Commercial-c))
+Maximum of Grad F . . . . . . .  1.4709e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 3
+Minor Iterations. . . . 3
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 5
+Gradient Evaluations. . 5
+Total Time. . . . . . . 0.132000
+Residual. . . . . . . . 4.613067e-009
+
+--- Restarting execution
+--- Base_2016.gms(2895) 12 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:09.995
+--- Base_2016.gms(2894) 13 Mb
+--- Generating MCP model Standard
+--- Base_2016.gms(2895) 17 Mb
+--- LOOPS t = 25
+---   4,393 rows  4,393 columns  15,818 non-zeroes
+---   23,401 nl-code  6,458 nl-non-zeroes
+--- Base_2016.gms(2895) 14 Mb
+--- Executing PATH: elapsed 0:00:10.056
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4393 row/cols, 15818 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.7659e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  1.8386e+005 eqn: (CapM(Capital))
+Maximum of Grad F . . . . . . .  1.4709e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  2.3836e+007 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  9.9627e-001 eqn: (Norm)
+Maximum Column Norm . . . . . .  4.7234e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,Cement-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             1.8669e+005             0.0e+000 (CapM(Capital))
+    1     1     0  4393 3.4735e+002  1.0e+000    0.0e+000 (HKTED1(Commercial-a))
+pn_search terminated: no basis change.
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     2     2 3.4735e+002           I 0.0e+000 3.2e+002 (HKTED1(Commerci)
+    1     1     3     3 3.6884e-002  1.0e+000 SO 0.0e+000 3.3e-002 (HKTED1(Commerci)
+    2     1     4     4 2.1414e-005  1.0e+000 SO 0.0e+000 2.1e-005 (XDD(Dairy-c))
+    3     1     5     5 3.6824e-008  1.0e+000 SO 0.0e+000 3.1e-008 (NEGDL2(Oilpro-c)
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  6.4239e-004 eqn: (AspPr(Oilpro-c))
+Inf-Norm of Normal Map. . . . .  3.1439e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Minimum Map . . . .  3.1439e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Fischer Function. .  3.1439e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Inf-Norm of Grad Fischer Fcn. .  7.7131e-003 eqn: (CapM(Capital))
+Two-Norm of Grad Fischer Fcn. .  1.2751e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  2.8346e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  3.1439e-008 eqn: (NEGDL2(Oilpro-c,Chemistry-a))
+Maximum of Grad F . . . . . . .  1.5168e+007 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 3
+Minor Iterations. . . . 3
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 1
+Gradient Steps. . . . . 0
+Function Evaluations. . 5
+Gradient Evaluations. . 5
+Total Time. . . . . . . 0.063000
+Residual. . . . . . . . 3.682374e-008
+
+--- Restarting execution
+--- Base_2016.gms(2895) 12 Mb
+--- Reading solution for model Standard
+--- Executing after solve: elapsed 0:00:10.368
+--- Base_2016.gms(3132) 14 Mb
+*** Status: Normal completion
+--- Job Base_2016.gms Stop 07/14/16 10:47:09 elapsed 0:00:10.378

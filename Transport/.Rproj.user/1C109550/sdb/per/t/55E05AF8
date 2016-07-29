@@ -1,0 +1,18 @@
+{
+    "contents" : "SAM_model=read.csv(file=\"../SAM/b_sam_model_ng_pos.csv\",header=T,as.is=T)\nA=SAM_model[which(grepl(\"-c\",SAM_model$X)),c(1,which(grepl(\"\\\\.a\",colnames(SAM_model))))]\nrownames(A)=SAM_model$X[grepl(\"-c\",SAM_model$X)]\n\nFuel_name=c(\"Gasoline-c\",     \"Jetoil-c\",       \"Diesel-c\",       \"Kerosene-c\",    \"Fueloil-c\",      \"LPG-c\")\nlibrary(dplyr)\nlibrary(tidyr)\nlibrary(ggplot2)\nFuelA=A[match(Fuel_name,A$X),]\nFuelA %>% \n  gather(key=\"demand\",value,-1) %>%\n  group_by(X) %>%\n  arrange(X,desc(value)) %>%\n  mutate(dist=100*(value/sum(value))) %>%\n  top_n(5)%>%\n  mutate(index=(1:5)) %>%\n  ggplot(aes(x=index,y=dist))+geom_bar(stat=\"identity\")+facet_wrap(~X)\n  ggsave(\"Fueldmand.png\")\n\n    FuelA %>% \n    gather(key=\"demand\",value,-1) %>%\n    group_by(X) %>%\n    arrange(X,desc(value)) %>%\n    mutate(dist=100*(value/sum(value))) %>%\n    top_n(5)%>%\n    mutate(index=(1:5)) %>%\n#    ggplot(aes(x=index,y=dist))+geom_bar(stat=\"identity\")+facet_wrap(~X)\n    gather(key=\"data\",value,(2:4)) %>%\n    spread(key=data,value) %>%\n    write.csv(file=\"Top5.dist.csv\")\n\nfor (i in 1:6){\n  FuelA.i=FuelA[i,]\n  Top5.i=FuelA.i %>% \n    gather(key=\"demand\",value,-1) %>%\n    arrange(desc(value)) %>%\n    mutate(dist=100*(value/sum(value)))%>%\n    mutate(index=(1:54)) %>%\n    filter(index<=5)\nprint(\"\")    \nTop5.i %>%\n  select(X,demand,dist) %>%\n  print()\n\n    ggplot(Top5.i,aes(x=index,y=dist))+geom_bar(stat=\"identity\")+scale_x_continuous(breaks=Top5.i$index,labels=Top5.i$demand)\n    figname=paste(FuelA.i$X,\".png\",sep=\"\")\n    ggsave(figname,width=4,height=4) \n  }",
+    "created" : 1467072687537.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "52838984",
+    "id" : "55E05AF8",
+    "lastKnownWriteTime" : 1467082682,
+    "path" : "C:/Users/sungw/OneDrive/work_2016/0000_Hybrid_2nd/CGE/SAM/Fueldemand.r",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

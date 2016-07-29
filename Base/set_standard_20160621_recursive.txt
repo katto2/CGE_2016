@@ -1,0 +1,570 @@
+ACTP /ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a,CO2-a,ELEC-c,GAS-c,HEAT-c,ROIL-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Orgchem-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electro_e-c,Electro_ne-c,Electro_sig-c,semicon-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Agri-c,Waste-c,CO2-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process,Total /
+ACT(ACTP) /ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a,CO2-a,ELEC-c,GAS-c,HEAT-c,ROIL-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Orgchem-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electro_e-c,Electro_ne-c,Electro_sig-c,semicon-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Agri-c,Waste-c,CO2-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process,Total /
+ACNT(ACT)
+AC(ACT) /ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a,CO2-a,ELEC-c,GAS-c,HEAT-c,ROIL-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Orgchem-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electro_e-c,Electro_ne-c,Electro_sig-c,semicon-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Agri-c,Waste-c,CO2-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process /
+ACNGT(ACT) /ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a,ELEC-c,GAS-c,HEAT-c,ROIL-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Orgchem-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electro_e-c,Electro_ne-c,Electro_sig-c,semicon-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Agri-c,Waste-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process,Total /
+ACNGA(AC) /ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a,ELEC-c,GAS-c,HEAT-c,ROIL-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Orgchem-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electro_e-c,Electro_ne-c,Electro_sig-c,semicon-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Agri-c,Waste-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process /
+A(AC) /ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a /
+C(AC) /ELEC-c,GAS-c,HEAT-c,ROIL-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Orgchem-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electro_e-c,Electro_ne-c,Electro_sig-c,semicon-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Agri-c,Waste-c /
+ENC(C) /GAS-c,ROIL-c,CoalPro-c,Coal-c,Oil-c,LNG-c /
+ENCN(C) /ELEC-c,HEAT-c,Mining-c,IS-c,Cement-c,Orgchem-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electro_e-c,Electro_ne-c,Electro_sig-c,semicon-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Agri-c,Waste-c /
+Sfuel(C) /CoalPro-c,Coal-c /
+Lfuel(C) /GAS-c,ROIL-c,Oil-c,LNG-c /
+ELECC(C) /ELEC-c,HEAT-c /
+M(C) /Mining-c,IS-c,Cement-c,Orgchem-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electro_e-c,Electro_ne-c,Electro_sig-c,semicon-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Agri-c,Waste-c /
+ELECC_s(C) /ELEC-c/
+*ELECA(A) /ELEC-a/
+HEATC_s(C) /HEAT-c/
+*HEATA(A) /HEAT-a/
+MiningC_s(C) /Mining-c/
+ISC_s(C) /IS-c/
+CementC_s(C) /Cement-c/
+OrgchemC_s(C) /Orgchem-c/
+WoodPaperC_s(C) /WoodPaper-c/
+FiberLeatherC_s(C) /FiberLeather-c/
+MineralC_s(C) /Mineral-c/
+nonISmetalC_s(C) /nonISmetal-c/
+MachineC_s(C) /Machine-c/
+Electro_eC_s(C) /Electro_e-c/
+Electro_neC_s(C) /Electro_ne-c/
+Electro_sigC_s(C) /Electro_sig-c/
+semiconC_s(C) /semicon-c/
+AutoC_s(C) /Auto-c/
+ShipC_s(C) /Ship-c/
+FoodC_s(C) /Food-c/
+MissManuC_s(C) /MissManu-c/
+ConstC_s(C) /Const-c/
+RailC_s(C) /Rail-c/
+RoadC_s(C) /Road-c/
+AirC_s(C) /Air-c/
+MarineC_s(C) /Marine-c/
+MissTransC_s(C) /MissTrans-c/
+HousingC_s(C) /Housing-c/
+CommercialC_s(C) /Commercial-c/
+PublicC_s(C) /Public-c/
+AgriC_s(C) /Agri-c/
+WasteC_s(C) /Waste-c/
+GASac_s(C) /GAS-c/
+ROILac_s(C) /ROIL-c/
+CoalProac_s(C) /CoalPro-c/
+Coalac_s(C) /Coal-c/
+Oilac_s(C) /Oil-c/
+LNGac_s(C) /LNG-c/
+EleccA(A,C)
+/
+ELEC-a.(ELEC-c )
+GAS-a.(ELEC-c )
+HEAT-a.(ELEC-c,HEAT-c )
+ROIL-a.(ELEC-c,HEAT-c )
+CoalPro-a.(ELEC-c )
+Coal-a.(ELEC-c )
+Mining-a.(ELEC-c )
+IS-a.(ELEC-c )
+Cement-a.(ELEC-c )
+Orgchem-a.(ELEC-c,HEAT-c )
+WoodPaper-a.(ELEC-c,HEAT-c )
+FiberLeather-a.(ELEC-c,HEAT-c )
+Mineral-a.(ELEC-c )
+nonISmetal-a.(ELEC-c )
+Machine-a.(ELEC-c,HEAT-c )
+Electro_e-a.(ELEC-c )
+Electro_ne-a.(ELEC-c,HEAT-c )
+Electro_sig-a.(ELEC-c,HEAT-c )
+semicon-a.(ELEC-c,HEAT-c )
+Auto-a.(ELEC-c )
+Ship-a.(ELEC-c )
+Food-a.(ELEC-c,HEAT-c )
+MissManu-a.(ELEC-c,HEAT-c )
+Const-a.(ELEC-c,HEAT-c )
+Rail-a.(ELEC-c )
+Road-a.(ELEC-c,HEAT-c )
+Air-a.(ELEC-c,HEAT-c )
+Marine-a.(ELEC-c,HEAT-c )
+MissTrans-a.(ELEC-c,HEAT-c )
+Housing-a.(ELEC-c )
+Commercial-a.(ELEC-c,HEAT-c )
+Public-a.(ELEC-c,HEAT-c )
+Agri-a.(ELEC-c,HEAT-c )
+Waste-a.(ELEC-c )
+/
+FuelA(A,C)
+/
+ELEC-a.(GAS-c,ROIL-c,Coal-c )
+GAS-a.(GAS-c,ROIL-c,LNG-c )
+HEAT-a.(GAS-c,ROIL-c,Coal-c )
+ROIL-a.(GAS-c,ROIL-c,Oil-c )
+CoalPro-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Coal-a.(GAS-c,ROIL-c )
+Oil-a.(ROIL-c )
+LNG-a.(ROIL-c )
+Mining-a.(GAS-c,ROIL-c )
+IS-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Cement-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Orgchem-a.(GAS-c,ROIL-c )
+WoodPaper-a.(GAS-c,ROIL-c )
+FiberLeather-a.(GAS-c,ROIL-c )
+Mineral-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+nonISmetal-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Machine-a.(GAS-c,ROIL-c )
+Electro_e-a.(GAS-c,ROIL-c )
+Electro_ne-a.(GAS-c,ROIL-c )
+Electro_sig-a.(GAS-c,ROIL-c )
+semicon-a.(GAS-c,ROIL-c )
+Auto-a.(GAS-c,ROIL-c )
+Ship-a.(GAS-c,ROIL-c )
+Food-a.(GAS-c,ROIL-c )
+MissManu-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Const-a.(GAS-c,ROIL-c,CoalPro-c )
+Rail-a.(GAS-c,ROIL-c )
+Road-a.(GAS-c,ROIL-c )
+Air-a.(GAS-c,ROIL-c )
+Marine-a.(GAS-c,ROIL-c )
+MissTrans-a.(GAS-c,ROIL-c,CoalPro-c )
+Housing-a.(GAS-c )
+Commercial-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Public-a.(GAS-c,ROIL-c,CoalPro-c )
+Agri-a.(GAS-c,ROIL-c,CoalPro-c )
+Waste-a.(GAS-c,ROIL-c )
+/
+GC(AC) /CO2-c /
+SFuelA(A,C)
+/
+ELEC-a.(Coal-c )
+HEAT-a.(Coal-c )
+CoalPro-a.(CoalPro-c,Coal-c )
+IS-a.(CoalPro-c,Coal-c )
+Cement-a.(CoalPro-c,Coal-c )
+Mineral-a.(CoalPro-c,Coal-c )
+nonISmetal-a.(CoalPro-c,Coal-c )
+MissManu-a.(CoalPro-c,Coal-c )
+Const-a.(CoalPro-c )
+MissTrans-a.(CoalPro-c )
+Commercial-a.(CoalPro-c,Coal-c )
+Public-a.(CoalPro-c )
+Agri-a.(CoalPro-c )
+/
+LFuelA(A,C)
+/
+ELEC-a.(GAS-c,ROIL-c )
+GAS-a.(GAS-c,ROIL-c,LNG-c )
+HEAT-a.(GAS-c,ROIL-c )
+ROIL-a.(GAS-c,ROIL-c,Oil-c )
+CoalPro-a.(GAS-c,ROIL-c )
+Coal-a.(GAS-c,ROIL-c )
+Oil-a.(ROIL-c )
+LNG-a.(ROIL-c )
+Mining-a.(GAS-c,ROIL-c )
+IS-a.(GAS-c,ROIL-c )
+Cement-a.(GAS-c,ROIL-c )
+Orgchem-a.(GAS-c,ROIL-c )
+WoodPaper-a.(GAS-c,ROIL-c )
+FiberLeather-a.(GAS-c,ROIL-c )
+Mineral-a.(GAS-c,ROIL-c )
+nonISmetal-a.(GAS-c,ROIL-c )
+Machine-a.(GAS-c,ROIL-c )
+Electro_e-a.(GAS-c,ROIL-c )
+Electro_ne-a.(GAS-c,ROIL-c )
+Electro_sig-a.(GAS-c,ROIL-c )
+semicon-a.(GAS-c,ROIL-c )
+Auto-a.(GAS-c,ROIL-c )
+Ship-a.(GAS-c,ROIL-c )
+Food-a.(GAS-c,ROIL-c )
+MissManu-a.(GAS-c,ROIL-c )
+Const-a.(GAS-c,ROIL-c )
+Rail-a.(GAS-c,ROIL-c )
+Road-a.(GAS-c,ROIL-c )
+Air-a.(GAS-c,ROIL-c )
+Marine-a.(GAS-c,ROIL-c )
+MissTrans-a.(GAS-c,ROIL-c )
+Housing-a.(GAS-c )
+Commercial-a.(GAS-c,ROIL-c )
+Public-a.(GAS-c,ROIL-c )
+Agri-a.(GAS-c,ROIL-c )
+Waste-a.(GAS-c,ROIL-c )
+/
+GfuelA(A,C)
+/
+ELEC-a.(GAS-c,ROIL-c,Coal-c )
+GAS-a.(GAS-c,ROIL-c )
+HEAT-a.(GAS-c,ROIL-c,Coal-c )
+ROIL-a.(GAS-c,ROIL-c )
+CoalPro-a.(GAS-c,ROIL-c,CoalPro-c )
+Coal-a.(GAS-c,ROIL-c )
+Oil-a.(ROIL-c )
+LNG-a.(ROIL-c )
+Mining-a.(GAS-c,ROIL-c )
+IS-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Cement-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Orgchem-a.(GAS-c,ROIL-c )
+WoodPaper-a.(GAS-c,ROIL-c )
+FiberLeather-a.(GAS-c,ROIL-c )
+Mineral-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+nonISmetal-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Machine-a.(GAS-c,ROIL-c )
+Electro_e-a.(GAS-c,ROIL-c )
+Electro_ne-a.(GAS-c,ROIL-c )
+Electro_sig-a.(GAS-c,ROIL-c )
+semicon-a.(GAS-c,ROIL-c )
+Auto-a.(GAS-c,ROIL-c )
+Ship-a.(GAS-c,ROIL-c )
+Food-a.(GAS-c,ROIL-c )
+MissManu-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Const-a.(GAS-c,ROIL-c,CoalPro-c )
+Rail-a.(GAS-c,ROIL-c )
+Road-a.(GAS-c,ROIL-c )
+Air-a.(GAS-c,ROIL-c )
+Marine-a.(GAS-c,ROIL-c )
+MissTrans-a.(GAS-c,ROIL-c,CoalPro-c )
+Housing-a.(GAS-c )
+Commercial-a.(GAS-c,ROIL-c,CoalPro-c,Coal-c )
+Public-a.(GAS-c,ROIL-c,CoalPro-c )
+Agri-a.(GAS-c,ROIL-c,CoalPro-c )
+Waste-a.(GAS-c,ROIL-c )
+/
+XPXC(C,A)
+/
+ELEC-c.(ELEC-a )
+GAS-c.(GAS-a )
+HEAT-c.(HEAT-a )
+ROIL-c.(ROIL-a )
+CoalPro-c.(CoalPro-a )
+Coal-c.(Coal-a )
+Oil-c.(Oil-a )
+LNG-c.(LNG-a )
+Mining-c.(Mining-a )
+IS-c.(IS-a )
+Cement-c.(Cement-a )
+Orgchem-c.(Orgchem-a )
+WoodPaper-c.(WoodPaper-a )
+FiberLeather-c.(FiberLeather-a )
+Mineral-c.(Mineral-a )
+nonISmetal-c.(nonISmetal-a )
+Machine-c.(Machine-a )
+Electro_e-c.(Electro_e-a )
+Electro_ne-c.(Electro_ne-a )
+Electro_sig-c.(Electro_sig-a )
+semicon-c.(semicon-a )
+Auto-c.(Auto-a )
+Ship-c.(Ship-a )
+Food-c.(Food-a )
+MissManu-c.(MissManu-a )
+Const-c.(Const-a )
+Rail-c.(Rail-a )
+Road-c.(Road-a )
+Air-c.(Air-a )
+Marine-c.(Marine-a )
+MissTrans-c.(MissTrans-a )
+Housing-c.(Housing-a )
+Commercial-c.(Commercial-a )
+Public-c.(Public-a )
+Agri-c.(Agri-a )
+Waste-c.(Waste-a )
+/
+XAPA(C,A)
+/
+ELEC-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+HEAT-c.(HEAT-a,ROIL-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Machine-a,Electro_ne-a,Electro_sig-a,semicon-a,Food-a,MissManu-a,Const-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a )
+Mining-c.(ELEC-a,HEAT-a,ROIL-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Commercial-a,Public-a,Agri-a )
+IS-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Cement-c.(Cement-a,Mineral-a,Ship-a,MissManu-a,Const-a,Commercial-a,Public-a,Waste-a )
+Orgchem-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+WoodPaper-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+FiberLeather-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Mineral-c.(ELEC-a,ROIL-a,CoalPro-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+nonISmetal-c.(ELEC-a,ROIL-a,CoalPro-a,Coal-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Air-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Machine-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Electro_e-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Electro_ne-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Electro_sig-c.(WoodPaper-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Air-a,MissTrans-a,Commercial-a,Public-a )
+semicon-c.(ELEC-a,IS-a,Orgchem-a,WoodPaper-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Air-a,MissTrans-a,Commercial-a,Public-a,Waste-a )
+Auto-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Ship-c.(Mining-a,Ship-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a )
+Food-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+MissManu-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Const-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Rail-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Road-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Air-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Marine-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+MissTrans-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Commercial-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Public-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Agri-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+Waste-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+/
+XEPA(C,A)
+/
+GAS-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Agri-a,Waste-a )
+ROIL-c.(ELEC-a,GAS-a,HEAT-a,ROIL-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Orgchem-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electro_e-a,Electro_ne-a,Electro_sig-a,semicon-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Agri-a,Waste-a )
+CoalPro-c.(CoalPro-a,IS-a,Cement-a,Mineral-a,nonISmetal-a,MissManu-a,Const-a,MissTrans-a,Commercial-a,Public-a,Agri-a )
+Coal-c.(ELEC-a,HEAT-a,CoalPro-a,IS-a,Cement-a,Mineral-a,nonISmetal-a,MissManu-a,Commercial-a )
+Oil-c.(ROIL-a )
+LNG-c.(GAS-a )
+/
+FD(ACT) /GoV,S-I /
+FD_C(C,FD)
+/
+ROIL-c.(S-I )
+CoalPro-c.(S-I )
+Coal-c.(S-I )
+Oil-c.(S-I )
+LNG-c.(S-I )
+Mining-c.(S-I )
+IS-c.(S-I )
+Cement-c.(S-I )
+Orgchem-c.(S-I )
+WoodPaper-c.(S-I )
+FiberLeather-c.(S-I )
+Mineral-c.(S-I )
+nonISmetal-c.(S-I )
+Machine-c.(S-I )
+Electro_e-c.(S-I )
+Electro_ne-c.(S-I )
+Electro_sig-c.(S-I )
+semicon-c.(S-I )
+Auto-c.(S-I )
+Ship-c.(S-I )
+Food-c.(S-I )
+MissManu-c.(S-I )
+Const-c.(S-I )
+Rail-c.(S-I )
+Road-c.(S-I )
+Air-c.(S-I )
+Marine-c.(S-I )
+MissTrans-c.(S-I )
+Commercial-c.(GoV,S-I )
+Public-c.(GoV,S-I )
+Agri-c.(S-I )
+Waste-c.(GoV )
+/
+F(AC) /Labor,Capital /
+L(F) /Labor /
+K(F) /Capital /
+INS(AC) /Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW /
+INSD(INS) /Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I /
+INSDN(INS) /ROW /
+H(INSD) /Household /
+XACH(H,C)
+/
+Household.ELEC-c
+Household.GAS-c
+Household.HEAT-c
+Household.ROIL-c
+Household.CoalPro-c
+Household.Mining-c
+Household.IS-c
+Household.Cement-c
+Household.Orgchem-c
+Household.WoodPaper-c
+Household.FiberLeather-c
+Household.Mineral-c
+Household.nonISmetal-c
+Household.Machine-c
+Household.Electro_e-c
+Household.Electro_ne-c
+Household.semicon-c
+Household.Auto-c
+Household.Food-c
+Household.MissManu-c
+Household.Rail-c
+Household.Road-c
+Household.Air-c
+Household.Marine-c
+Household.MissTrans-c
+Household.Housing-c
+Household.Commercial-c
+Household.Public-c
+Household.Agri-c
+Household.Waste-c
+/
+t
+/
+0*25
+/
+Alias(ACT,ACTPP);
+Alias(INS,INSP);
+Alias(AC,ACP);
+Alias(A,AP);
+Alias(C,CP);
+Alias(F,FP);
+Alias(L,LP);
+Alias(K,KP);
+Alias(H,HP);
+Alias(GC,GCP);
+ACNT(ACT)=yes;
+ACNT('Total')=no;
+Parameter
+Lfuel_single(A)
+/
+
+ELEC-a         1
+GAS-a          1
+HEAT-a         1
+ROIL-a         1
+CoalPro-a      1
+Coal-a         1
+Oil-a          0
+LNG-a          0
+Mining-a       1
+IS-a           1
+Cement-a       1
+Orgchem-a      1
+WoodPaper-a    1
+FiberLeather-a 1
+Mineral-a      1
+nonISmetal-a   1
+Machine-a      1
+Electro_e-a    1
+Electro_ne-a   1
+Electro_sig-a  1
+semicon-a      1
+Auto-a         1
+Ship-a         1
+Food-a         1
+MissManu-a     1
+Const-a        1
+Rail-a         1
+Road-a         1
+Air-a          1
+Marine-a       1
+MissTrans-a    1
+Housing-a      0
+Commercial-a   1
+Public-a       1
+Agri-a         1
+Waste-a        1
+/
+Sfuel_single(A)
+/
+
+ELEC-a       0
+HEAT-a       0
+CoalPro-a    1
+IS-a         1
+Cement-a     1
+Mineral-a    1
+nonISmetal-a 1
+MissManu-a   1
+Const-a      0
+MissTrans-a  0
+Commercial-a 1
+Public-a     0
+Agri-a       0
+/
+ELECC_single(A)
+/
+
+ELEC-a         0
+GAS-a          0
+HEAT-a         1
+ROIL-a         1
+CoalPro-a      0
+Coal-a         0
+Mining-a       0
+IS-a           0
+Cement-a       0
+Orgchem-a      1
+WoodPaper-a    1
+FiberLeather-a 1
+Mineral-a      0
+nonISmetal-a   0
+Machine-a      1
+Electro_e-a    0
+Electro_ne-a   1
+Electro_sig-a  1
+semicon-a      1
+Auto-a         0
+Ship-a         0
+Food-a         1
+MissManu-a     1
+Const-a        1
+Rail-a         0
+Road-a         1
+Air-a          1
+Marine-a       1
+MissTrans-a    1
+Housing-a      0
+Commercial-a   1
+Public-a       1
+Agri-a         1
+Waste-a        0
+/
+K_single(A)
+/
+
+ELEC-a         0
+GAS-a          0
+HEAT-a         0
+ROIL-a         0
+CoalPro-a      0
+Coal-a         0
+Oil-a          0
+LNG-a          0
+Mining-a       0
+IS-a           0
+Cement-a       0
+Orgchem-a      0
+WoodPaper-a    0
+FiberLeather-a 0
+Mineral-a      0
+nonISmetal-a   0
+Machine-a      0
+Electro_e-a    0
+Electro_ne-a   0
+Electro_sig-a  0
+semicon-a      0
+Auto-a         0
+Ship-a         0
+Food-a         0
+MissManu-a     0
+Const-a        0
+Rail-a         0
+Road-a         0
+Air-a          0
+Marine-a       0
+MissTrans-a    0
+Housing-a      0
+Commercial-a   0
+Public-a       0
+Agri-a         0
+Waste-a        0
+/
+L_single(A)
+/
+
+ELEC-a         0
+GAS-a          0
+HEAT-a         0
+ROIL-a         0
+CoalPro-a      0
+Coal-a         0
+Oil-a          0
+LNG-a          0
+Mining-a       0
+IS-a           0
+Cement-a       0
+Orgchem-a      0
+WoodPaper-a    0
+FiberLeather-a 0
+Mineral-a      0
+nonISmetal-a   0
+Machine-a      0
+Electro_e-a    0
+Electro_ne-a   0
+Electro_sig-a  0
+semicon-a      0
+Auto-a         0
+Ship-a         0
+Food-a         0
+MissManu-a     0
+Const-a        0
+Rail-a         0
+Road-a         0
+Air-a          0
+Marine-a       0
+MissTrans-a    0
+Commercial-a   0
+Public-a       0
+Agri-a         0
+Waste-a        0
+/

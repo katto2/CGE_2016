@@ -1,0 +1,6 @@
+GDXXRW           Jul 14, 2011 23.7.3 WIN 27723.27726 VS8 x86/MS Windows       
+Input file : C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\SAM\sigmaq.xls
+Output file: C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Base\xllink.gdx
+Value expected in cell: sigmaq!A3; found GAS-c
+Total number of bad values for symbol sigmaq = 1
+Total time = 3328 Ms

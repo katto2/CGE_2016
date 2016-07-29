@@ -1,0 +1,15 @@
+
+--- Job mapping_io_tc_cge_2016_1.gms Start 07/22/16 13:26:13 WEX-WEI 23.7.3 x86_64/MS Windows     
+GAMS Rev 237  Copyright (C) 1987-2011 GAMS Development. All rights reserved
+Licensee: Environment and Economy Division               G111024:0541CN-WIN
+          Korea Environment Institute                                DC7264
+--- Starting compilation
+--- mapping_io_tc_cge_2016_1.gms(471) 3 Mb
+--- .iocost_r_Agri_0121.csv(415) 3 Mb
+--- mapping_io_tc_cge_2016_1.gms(476) 3 Mb
+--- .cost_Agri_0121.csv(18) 3 Mb
+--- mapping_io_tc_cge_2016_1.gms(608) 3 Mb
+--- Starting execution: elapsed 0:00:00.011
+--- mapping_io_tc_cge_2016_1.gms(1038) 6 Mb
+*** Status: Normal completion
+--- Job mapping_io_tc_cge_2016_1.gms Stop 07/22/16 13:26:13 elapsed 0:00:00.037

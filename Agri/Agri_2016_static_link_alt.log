@@ -1,0 +1,106 @@
+
+--- Job Agri_2016_static_link_alt.gms Start 07/22/16 10:32:51 WEX-WEI 23.7.3 x86_64/MS Windows     
+GAMS Rev 237  Copyright (C) 1987-2011 GAMS Development. All rights reserved
+Licensee: Environment and Economy Division               G111024:0541CN-WIN
+          Korea Environment Institute                                DC7264
+--- Starting compilation
+--- Agri_2016_static_link_alt.gms(19) 2 Mb
+--- .set_agri_static_link_2016_alt_cons.txt(926) 3 Mb
+--- Agri_2016_static_link_alt.gms(222) 3 Mb
+--- .b_sam_agri_model_g_pos_cons.csv(120) 3 Mb
+--- Agri_2016_static_link_alt.gms(227) 3 Mb
+--- .b_sam_agri_model_ng_pos_cons.csv(120) 3 Mb
+--- Agri_2016_static_link_alt.gms(232) 3 Mb
+--- .GHG_agri_model_process_cons.csv(17) 3 Mb
+--- Agri_2016_static_link_alt.gms(955) 3 Mb
+--- .gtaxp_BAU.txt(1) 3 Mb
+--- Agri_2016_static_link_alt.gms(956) 3 Mb
+--- .gtaxp_ctax_1.txt(1) 3 Mb
+--- Agri_2016_static_link_alt.gms(981) 3 Mb
+--- .sigmaq.txt(53) 3 Mb
+--- Agri_2016_static_link_alt.gms(991) 3 Mb
+--- .lgrow.txt(1) 3 Mb
+--- Agri_2016_static_link_alt.gms(992) 3 Mb
+--- .Oldpopg.txt(1) 3 Mb
+--- Agri_2016_static_link_alt.gms(993) 3 Mb
+--- .TBg.txt(1) 3 Mb
+--- Agri_2016_static_link_alt.gms(2095) 3 Mb
+--- Starting execution: elapsed 0:00:00.037
+--- Agri_2016_static_link_alt.gms(3076) 10 Mb
+--- Generating MCP model Agri
+--- Agri_2016_static_link_alt.gms(3077) 14 Mb
+--- LOOPS t = 0
+---   4,381 rows  4,381 columns  15,331 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_static_link_alt.gms(3077) 12 Mb
+--- Executing PATH: elapsed 0:00:00.175
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15331 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.1763e+006 var: (YH(Household))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  2.5109e+006 eqn: (XDS(Commercial-c))
+                                            var: (PD(Commercial-c))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  5.0217e+006 eqn: (XDS(Commercial-c))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  4.1011e+006 var: (PD(Commercial-c))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3200e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.1763e+006 var: (YH(Household))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  2.5109e+006 eqn: (XDS(Commercial-c))
+                                            var: (PD(Commercial-c))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.081000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_static_link_alt.gms(3077) 8 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:00.426
+--- Agri_2016_static_link_alt.gms(3316) 10 Mb
+*** Status: Normal completion
+--- Job Agri_2016_static_link_alt.gms Stop 07/22/16 10:32:52 elapsed 0:00:00.435

@@ -1,0 +1,28 @@
+GAMS Rev 237  WEX-WEI 23.7.3 x86_64/MS Windows          06/24/16 13:00:08 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Include File Summary
+
+
+   SEQ   GLOBAL TYPE      PARENT   LOCAL  FILENAME
+
+     1        1 INPUT          0       0  C:\Users\sungw\OneDrive\work_2016\0000
+                                          _Hybrid_2nd\CGE\Base\Untitled_1.gms
+     2        1 CALL           1       1  =xls2gms
+
+
+COMPILATION TIME     =       18.406 SECONDS      2 Mb  WEX237-237 Aug 23, 2011
+
+
+EXECUTION TIME       =        0.000 SECONDS      2 Mb  WEX237-237 Aug 23, 2011
+
+
+USER: Environment and Economy Division               G111024:0541CN-WIN
+      Korea Environment Institute                                DC7264
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Base\Untitled_1
+           .gms
+Output     C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Base\Untitled_1
+           .lst

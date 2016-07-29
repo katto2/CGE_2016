@@ -1,0 +1,1981 @@
+
+--- Job Agri_2016_recursive_link_alt.gms Start 07/26/16 09:38:31 WEX-WEI 23.7.3 x86_64/MS Windows     
+GAMS Rev 237  Copyright (C) 1987-2011 GAMS Development. All rights reserved
+Licensee: Environment and Economy Division               G111024:0541CN-WIN
+          Korea Environment Institute                                DC7264
+--- Starting compilation
+--- Agri_2016_recursive_link_alt.gms(20) 2 Mb
+--- .set_agri_recursive_link_2016_alt_cons.txt(926) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(224) 3 Mb
+--- .b_sam_agri_model_g_pos_cons.csv(120) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(229) 3 Mb
+--- .b_sam_agri_model_ng_pos_cons.csv(120) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(234) 3 Mb
+--- .GHG_agri_model_process_cons.csv(17) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(946) 3 Mb
+--- .gtaxp_BAU.txt(26) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(947) 3 Mb
+--- .gtaxp_ctax_1.txt(26) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(973) 3 Mb
+--- .sigmaq.txt(53) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(986) 3 Mb
+--- .lgrow.txt(26) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(987) 3 Mb
+--- .Oldpopg.txt(26) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(988) 3 Mb
+--- .TBg.txt(26) 3 Mb
+--- Agri_2016_recursive_link_alt.gms(2094) 3 Mb
+--- Starting execution: elapsed 0:00:00.034
+--- Agri_2016_recursive_link_alt.gms(3198) 10 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- LOOPS t = 0
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 12 Mb
+--- Executing PATH: elapsed 0:00:00.157
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.033000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 8 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:00.358
+--- Agri_2016_recursive_link_alt.gms(3198) 10 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- LOOPS t = 1
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 11 Mb
+--- Executing PATH: elapsed 0:00:00.493
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.024000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 9 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:00.699
+--- Agri_2016_recursive_link_alt.gms(3198) 10 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- LOOPS t = 2
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 11 Mb
+--- Executing PATH: elapsed 0:00:00.844
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.031000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 10 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:01.063
+--- Agri_2016_recursive_link_alt.gms(3198) 11 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- LOOPS t = 3
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 12 Mb
+--- Executing PATH: elapsed 0:00:01.182
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.059000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 10 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:01.398
+--- Agri_2016_recursive_link_alt.gms(3198) 11 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- LOOPS t = 4
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 12 Mb
+--- Executing PATH: elapsed 0:00:01.510
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.074000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 10 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:01.752
+--- Agri_2016_recursive_link_alt.gms(3198) 11 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- LOOPS t = 5
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 12 Mb
+--- Executing PATH: elapsed 0:00:01.857
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.087000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 10 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:02.097
+--- Agri_2016_recursive_link_alt.gms(3198) 12 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- LOOPS t = 6
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- Executing PATH: elapsed 0:00:02.196
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.015000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 11 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:02.366
+--- Agri_2016_recursive_link_alt.gms(3198) 12 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- LOOPS t = 7
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- Executing PATH: elapsed 0:00:02.470
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.089000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 11 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:02.724
+--- Agri_2016_recursive_link_alt.gms(3198) 13 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- LOOPS t = 8
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- Executing PATH: elapsed 0:00:02.824
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.083000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 11 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:03.075
+--- Agri_2016_recursive_link_alt.gms(3198) 13 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- LOOPS t = 9
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- Executing PATH: elapsed 0:00:03.182
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.084000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 11 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:03.417
+--- Agri_2016_recursive_link_alt.gms(3198) 13 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 16 Mb
+--- LOOPS t = 10
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- Executing PATH: elapsed 0:00:03.509
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.101000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 11 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:03.769
+--- Agri_2016_recursive_link_alt.gms(3198) 14 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 16 Mb
+--- LOOPS t = 11
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- Executing PATH: elapsed 0:00:03.876
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.092000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 12 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:04.121
+--- Agri_2016_recursive_link_alt.gms(3198) 14 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 17 Mb
+--- LOOPS t = 12
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- Executing PATH: elapsed 0:00:04.210
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.009000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 12 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:04.369
+--- Agri_2016_recursive_link_alt.gms(3198) 15 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 17 Mb
+--- LOOPS t = 13
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- Executing PATH: elapsed 0:00:04.468
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.101000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 12 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:04.784
+--- Agri_2016_recursive_link_alt.gms(3198) 15 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 18 Mb
+--- LOOPS t = 14
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- Executing PATH: elapsed 0:00:04.936
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.071000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 12 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:05.206
+--- Agri_2016_recursive_link_alt.gms(3198) 15 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 18 Mb
+--- LOOPS t = 15
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- Executing PATH: elapsed 0:00:05.358
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.078000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:05.713
+--- Agri_2016_recursive_link_alt.gms(3198) 16 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 18 Mb
+--- LOOPS t = 16
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 16 Mb
+--- Executing PATH: elapsed 0:00:05.850
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.073000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:06.124
+--- Agri_2016_recursive_link_alt.gms(3198) 17 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 19 Mb
+--- LOOPS t = 17
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 17 Mb
+--- Executing PATH: elapsed 0:00:06.255
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.031000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:06.465
+--- Agri_2016_recursive_link_alt.gms(3198) 17 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 19 Mb
+--- LOOPS t = 18
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 17 Mb
+--- Executing PATH: elapsed 0:00:06.578
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.059000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 13 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:06.807
+--- Agri_2016_recursive_link_alt.gms(3198) 18 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 20 Mb
+--- LOOPS t = 19
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 18 Mb
+--- Executing PATH: elapsed 0:00:06.909
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.076000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:07.170
+--- Agri_2016_recursive_link_alt.gms(3198) 18 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 20 Mb
+--- LOOPS t = 20
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 18 Mb
+--- Executing PATH: elapsed 0:00:07.290
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.046000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:07.532
+--- Agri_2016_recursive_link_alt.gms(3198) 18 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 20 Mb
+--- LOOPS t = 21
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 18 Mb
+--- Executing PATH: elapsed 0:00:07.656
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.033000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:07.871
+--- Agri_2016_recursive_link_alt.gms(3198) 18 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 20 Mb
+--- LOOPS t = 22
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 18 Mb
+--- Executing PATH: elapsed 0:00:07.988
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.051000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 14 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:08.235
+--- Agri_2016_recursive_link_alt.gms(3198) 15 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 19 Mb
+--- LOOPS t = 23
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 17 Mb
+--- Executing PATH: elapsed 0:00:08.340
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.055000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:08.590
+--- Agri_2016_recursive_link_alt.gms(3198) 15 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 19 Mb
+--- LOOPS t = 24
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 17 Mb
+--- Executing PATH: elapsed 0:00:08.703
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.053000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:08.935
+--- Agri_2016_recursive_link_alt.gms(3198) 16 Mb
+--- Generating MCP model Agri
+--- Agri_2016_recursive_link_alt.gms(3199) 20 Mb
+--- LOOPS t = 25
+---   4,381 rows  4,381 columns  15,332 non-zeroes
+---   21,557 nl-code  6,316 nl-non-zeroes
+--- Agri_2016_recursive_link_alt.gms(3199) 18 Mb
+--- Executing PATH: elapsed 0:00:09.039
+Reading dictionary...
+Reading row data...
+Evaluating functions...
+Checking model...
+Calculating Jacobian...
+
+PATH             Jul 14, 2011 23.7.3 WEX 27723.27726 WEI x86_64/MS Windows
+
+4381 row/cols, 15332 non-zeros, 0.08% dense.
+
+Path 4.7.02 (Tue Aug 23 07:20:47 2011)
+Written by Todd Munson, Steven Dirkse, and Michael Ferris
+
+MCPR: Zero:     0 Single:    13 Double:     0 Forced:     0
+Preprocessed size   : 4368
+
+INITIAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+INITIAL JACOBIAN NORM STATISTICS
+Maximum Row Norm. . . . . . . .  9.5302e+006 eqn: (KDA1(Capital,Commercial-a))
+Minimum Row Norm. . . . . . . .  1.0000e+000 eqn: (CPIfix)
+Maximum Column Norm . . . . . .  1.8540e+007 var: (R(Capital))
+Minimum Column Norm . . . . . .  1.0000e+000 var: (QINTG(CO2-c,ELEC-a))
+
+Crash Log
+major  func  diff  size  residual    step       prox   (label)
+    0     0             9.2048e-007             0.0e+000 (XMTD(ELEC-c))
+
+Major Iteration Log
+major minor  func  grad  residual    step  type prox    inorm  (label)
+    0     0     1     1 9.2048e-007           I 0.0e+000 5.3e-007 (XMTD(ELEC-c))
+
+FINAL STATISTICS
+Inf-Norm of Complementarity . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Normal Map. . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Minimum Map . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Fischer Function. .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Inf-Norm of Grad Fischer Fcn. .  6.5762e-003 eqn: (XDD(ELEC-c))
+Two-Norm of Grad Fischer Fcn. .  1.3209e-002
+
+FINAL POINT STATISTICS
+Maximum of X. . . . . . . . . .  1.2760e+006 var: (KD(Capital,Commercial-a))
+Maximum of F. . . . . . . . . .  5.2822e-007 eqn: (XMTD(ELEC-c))
+Maximum of Grad F . . . . . . .  5.8334e+006 eqn: (KDA1(Capital,Commercial-a))
+                                            var: (R(Capital))
+
+ ** EXIT - solution found.
+
+Major Iterations. . . . 0
+Minor Iterations. . . . 0
+Restarts. . . . . . . . 0
+Crash Iterations. . . . 0
+Gradient Steps. . . . . 0
+Function Evaluations. . 1
+Gradient Evaluations. . 1
+Total Time. . . . . . . 0.070000
+Residual. . . . . . . . 9.204751e-007
+Postsolved residual: 9.2048e-007
+
+--- Restarting execution
+--- Agri_2016_recursive_link_alt.gms(3199) 15 Mb
+--- Reading solution for model Agri
+--- Executing after solve: elapsed 0:00:09.274
+--- Agri_2016_recursive_link_alt.gms(3440) 16 Mb
+*** Status: Normal completion
+--- Job Agri_2016_recursive_link_alt.gms Stop 07/26/16 09:38:40 elapsed 0:00:09.282
