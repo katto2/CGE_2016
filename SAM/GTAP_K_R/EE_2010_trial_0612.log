@@ -1,0 +1,234 @@
+
+--- Job EE_2010_trial_0612.gms Start 06/30/15 17:13:40 WIN-VS8 23.7.3 x86/MS Windows        
+GAMS Rev 237  Copyright (C) 1987-2011 GAMS Development. All rights reserved
+Licensee: Environment and Economy Division               G111024:0541CN-WIN
+          Korea Environment Institute                                DC7264
+--- Starting compilation
+--- EE_2010_trial_0612.gms(13) 3 Mb
+--- .Sectors_KSW.gms(1215) 3 Mb
+--- EE_2010_trial_0612.gms(14) 3 Mb
+--- .Declaration_KSW.gms(174) 3 Mb
+--- EE_2010_trial_0612.gms(21) 3 Mb
+--- GDXin=D:\GTAK_K_2010\iOimport_KSW.gdx
+--- EE_2010_trial_0612.gms(47) 12 Mb
+--- .cal_IOT_KSW.gms(175) 12 Mb
+--- EE_2010_trial_0612.gms(49) 12 Mb
+--- .Energy_Estimation_KSW.gms(143) 12 Mb
+--- EE_2010_trial_0612.gms(50) 12 Mb
+--- .Emission_Estimation_KSW2.gms(199) 12 Mb
+--- EE_2010_trial_0612.gms(51) 12 Mb
+--- .Emission_IP_KSW.gms(15) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(24) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(26) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(28) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(30) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(34) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(36) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(38) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(40) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(111) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(113) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(115) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(117) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(121) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(123) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(125) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(127) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(161) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(165) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(226) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(228) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(318) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(320) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(440) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(442) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(472) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(474) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(476) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(580) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(582) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(584) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(586) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(588) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(824) 12 Mb
+--- ..XLIMPORT.gms(49) 12 Mb
+--- call gdxxrw "emissions_estimation\GIR_Emissions.xlsx" @xllink.txt log=xllink.log
+--- ..XLIMPORT.gms(53) 12 Mb
+--- GDXin=D:\GTAK_K_2010\xllink.gdx
+--- ..XLIMPORT.gms(55) 12 Mb
+--- .Emission_IP_KSW.gms(907) 12 Mb
+--- EE_2010_trial_0612.gms(53) 12 Mb
+--- .GTAP_K_KSW.gms(492) 12 Mb
+--- EE_2010_trial_0612.gms(55) 12 Mb
+--- .GTAP_Egy_KSW.gms(17) 12 Mb
+--- EE_2010_trial_0612.gms(55) 12 Mb
+--- Starting execution: elapsed 0:00:46.676
+--- EE_2010_trial_0612.gms(4431) 19 Mb
+--- GDX File D:\GTAK_K_2010\finaltrail.gdx
+*** Status: Normal completion
+--- Job EE_2010_trial_0612.gms Stop 06/30/15 17:14:27 elapsed 0:00:47.100

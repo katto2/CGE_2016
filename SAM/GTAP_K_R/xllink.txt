@@ -1,0 +1,3 @@
+o=xllink.gdx par=DATA_iww
+rng=Waste(6)!G3..AZ4
+dim=1

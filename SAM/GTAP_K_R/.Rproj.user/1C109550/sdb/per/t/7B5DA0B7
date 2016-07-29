@@ -1,0 +1,18 @@
+{
+    "contents" : "GHG_IO_ind=read.csv(file=\"GIO_2010.csv\",header=T,as.is=T)\nGHG_IO_ind[,1]=as.numeric(substr(GHG_IO_ind[,1],2,nchar(GHG_IO_ind[,1])))\ncolnames(GHG_IO_ind)[1]=\"sector\"\nG_fd=read.csv(file=\"GIO_FD_2010.csv\",header=T,as.is=T)\nGHG_IO_F=G_fd[,colnames(G_fd)==\"Final_Pc\"]\n",
+    "created" : 1459996840728.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2548800909",
+    "id" : "7B5DA0B7",
+    "lastKnownWriteTime" : 1459999545,
+    "path" : "C:/Users/sungw/OneDrive/work_2016/0000_Hybrid_2nd/CGE/SAM/GTAP_K_R/Agg/IOT/GHGIO_refining.r",
+    "project_path" : "Agg/IOT/GHGIO_refining.r",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

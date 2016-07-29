@@ -1,0 +1,17 @@
+{
+    "contents" : "## Confirm Rice and Barley cost data adjustment due to grain (nrice)\n## Load data\nCropmap=read.csv(\"New_iocost_ratio_crop_2016.csv\",header=T,as.is=T)\nCropT=read.csv(\"Newcost_crop_2016.csv\",header=T,as.is=T)\nCropmap=Cropmap[,-1]\nCropT=CropT[,-1]\nCrop_data=merge(Cropmap,CropT,by.x=\"TC\",by.y=\"Group.1\",all=T)\n\nlsmap=read.csv(\"iocost_ratio_LS_2016.csv\",header=T,as.is=T)\nlsT=read.csv(\"cost_LS_2016.csv\",header=T,as.is=T)\nlsmap=lsmap[,-1]\nlsT=lsT[,-1]\nls_data=merge(lsmap,lsT,by.x=\"TC\",by.y=\"Group.1\",all=T)\nncrop=8\nNLiveStock=5\n\n## Load io-input (TD sector) map and merge\niomap=read.csv(\"iomap_2016.csv\",header=T,as.is=T)\nCrop_data=merge(Crop_data,iomap,by=\"io\",all=T)\ncropname=paste(colnames(Crop_data)[3:(2+ncrop)],\"_piece\",sep=\"\")\nls_data=merge(ls_data,iomap,by=\"io\",all=T)\nlsname=paste(colnames(ls_data)[3:(2+NLiveStock)],\"_piece\",sep=\"\")\n\n## obtain io-cost piece\nfor (i in (3:(2+ncrop))){\n  piece_i=Crop_data[,i]*Crop_data[,(ncrop+i)]\n  Crop_data=cbind(Crop_data,piece_i)\n  colnames(Crop_data)[dim(Crop_data)[2]]=cropname[i-2]\n}\n\nfor (i in (3:(2+NLiveStock))){\n  piece_i=ls_data[,i]*ls_data[,(NLiveStock+i)]\n  ls_data=cbind(ls_data,piece_i)\n  colnames(ls_data)[dim(ls_data)[2]]=lsname[i-2]\n}\n\n## sum up Livestock cost of BU\nTC_LC=aggregate(ls_data[,((3+2*NLiveStock+1):(3+3*NLiveStock))],by=list(ls_data$TC),FUN=sum)\n## sum up Livestock cost of TD\nC_LC=aggregate(ls_data[,((3+2*NLiveStock+1):(3+3*NLiveStock))],by=list(ls_data$c),FUN=sum)\n## sum up Crop cost of BU\nTC_Crop=aggregate(Crop_data[,((3+2*ncrop+1):(3+3*ncrop))],by=list(Crop_data$TC),FUN=sum)\n## sum up Crop cost of TD\nC_Crop=aggregate(Crop_data[,((3+2*ncrop+1):(3+3*ncrop))],by=list(Crop_data$c),FUN=sum)\n\niocost_ratio=merge(Cropmap, lsmap,by=c(\"TC\",\"io\"),all=T)\niocost_ratio[is.na(iocost_ratio)]=0\nTC=merge(CropT,lsT,by=\"Group.1\",all=T)\nTC[is.na(TC)]=0\n## write io-cost ratio\nwrite.csv(iocost_ratio,file=\"iocost_r_Agri_2016.csv\")\ncolnames(TC)[1]=\"tc\"\n## write cost by crop (after grain adjustment)\nwrite.csv(TC,file=\"cost_Agri_2016.csv\")\n",
+    "created" : 1469071858328.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "147637708",
+    "id" : "F761CDA8",
+    "lastKnownWriteTime" : 1469163918,
+    "path" : "C:/Users/sungw/OneDrive/work_2016/0000_Hybrid_2nd/CGE/SAM/Agri/consistency/confirm_2016.R",
+    "project_path" : "confirm_2016.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

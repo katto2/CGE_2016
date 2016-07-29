@@ -1,0 +1,17 @@
+{
+    "contents" : "## This file only import IO and save \n# (1) load IO data\n# (2) load industry mapping\n# (3) classifying IO entities\n# (4) Construct variablbes using IO data\n# (5) Enter Energy Balance entities\n# (6) Load energy balance\n\n##(1) load IO data. \n### IO data name protocol : IO_\"Type\"_\"price\"_\"year\" \n#### Type= T(Total), D(Domestic),M(Import)\n#### Price =B (basic), N (Producer)\n#### year= 4 digit (2010, 2011,.....)\nt=2010\nIOnames=c(\"IO_T_N_82\",\"IO_D_N_82\",\"IO_M_N_82\",\"IO_T_N_384\",\"IO_D_N_384\",\"IO_M_N_384\",\"IO_T_B_82\",\"IO_D_B_82\",\"IO_M_B_82\",\"IO_T_B_384\",\"IO_D_B_384\",\"IO_M_B_384\")\nindexnames=c(\"indindex_82\",\"indindex_384\")\nIOnames_t=paste(paste(IOnames,t,sep=\"_\"),\"csv\",sep=\".\")\nindexnames_t=paste(indexnames,\"csv\",sep=\".\")\nEBSname=c(\"EBS\")\nEBSname_t=paste(paste(EBSname,t,sep=\"\"),\"csv\",sep=\".\")\nIO_T_N_82=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[1]), header=T,as.is=T)\nIO_D_N_82=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[2]), header=T,as.is=T)\nIO_M_N_82=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[3]), header=T,as.is=T)\nIO_T_N_384=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[4]), header=T,as.is=T)\nIO_D_N_384=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[5]), header=T,as.is=T)\nIO_M_N_384=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[6]), header=T,as.is=T)\n\nIO_T_B_82=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[7]), header=T,as.is=T)\nIO_D_B_82=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[8]), header=T,as.is=T)\nIO_M_B_82=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[9]), header=T,as.is=T)\nIO_T_B_384=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[10]), header=T,as.is=T)\nIO_D_B_384=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[11]), header=T,as.is=T)\nIO_M_B_384=read.csv(file=file.path(\"Agg/IOT\",IOnames_t[12]), header=T,as.is=T)\n\n\n##(2) Load industry mapping\nindindex_82=read.csv(file=file.path(\"Agg/IOT\",indexnames_t[1]),header=T,as.is=T)\nindindex_384=read.csv(file=file.path(\"Agg/IOT\",indexnames_t[2]),header=T,as.is=T)\n\n##(3) Load Energy balance data\n\nEBS=read.csv(file=file.path(\"Energy_Estimation\",EBSname_t), header=T,as.is=T)\n\n\n### fill up the NA with 0\nEBS[is.na(EBS)]=0\n\n### change row names\nrownames(EBS)=EBS[,1]\nEBS=EBS[,-1]\n\n##(4) Create Data file \n\nD_name0=paste(paste(\"D0\",t,sep=\"_\"),\"Rdata\",sep=\".\")\n#save(list=c(IOnames,indexnames,\"EBS\"),file=file.path(\"Agg/IOT\",D_name0))\nsave(list=c(IOnames,indexnames,\"EBS\"),file=D_name0)\n",
+    "created" : 1459995905055.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1700790702",
+    "id" : "8FD01168",
+    "lastKnownWriteTime" : 1459995998,
+    "path" : "C:/Users/sungw/OneDrive/work_2016/0000_Hybrid_2nd/CGE/SAM/GTAP_K_R/Agg/IOT/Dataload.r",
+    "project_path" : "Agg/IOT/Dataload.r",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
