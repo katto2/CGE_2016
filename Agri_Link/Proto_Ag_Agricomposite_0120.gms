@@ -83,7 +83,7 @@ Introduce Cobb-Douglas Agriculture composite XAG and the price of XAG, PAG
 
 *$ONempty
 $OFFTEXT
-OPTION SYSOUT=ON;
+*OPTION SYSOUT=ON;
 OPTION limrow=50;
 *SETS=================================
 *parameter

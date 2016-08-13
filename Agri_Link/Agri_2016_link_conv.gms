@@ -7,9 +7,10 @@ Data : 2010 IO table. Basic price data. 2010 Energy Balance. 2010 National Inven
 
 
 $OFFTEXT
-OPTION SYSOUT=ON;
-OPTION limrow=50;
-OPTION limcol=50;
+option Solprint=silent;
+*OPTION SYSOUT=ON;
+*OPTION limrow=50;
+*OPTION limcol=50;
 
 parameter
 operation;
@@ -2714,7 +2715,7 @@ parameter       dev_XCREP(A)     Deviation of XCREP values between subsequent so
 
 parameter       con_crit convergence criterion;
 
-con_crit=1e-4;
+con_crit=1e-2;
 
 Loop (t$(not stop),
 counter=counter+1;

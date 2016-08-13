@@ -61,9 +61,6 @@ PlaneRownr=-1
 [RP:AGRI_2016_STATIC_LINK_ALT]
 1=
 
-[RP:AGRI_2016_RECURSIVE_ALT]
-1=
-
 [GDXDISP: SAMREP Par 3]
 PlaneDim=0
 RowDim=2
@@ -132,22 +129,29 @@ PlaneRownr=-1
 2=gdx=costmatch
 
 [OPENWINDOW_1]
-MAXIM=0
-TOP=0
-LEFT=0
+MAXIM=1
+TOP=286
+LEFT=286
 HEIGHT=624
 WIDTH=1604
+
+[RP:AGRI_2016_LINK_RECURSIVE]
+1=gdx=BAU
+2=
 
 [RP:AGRI_2016_RECURSIVE_LINK_ALT]
 1=
 
+[RP:AGRI_2016_RECURSIVE_ALT]
+1=
+
 [MRUFILES]
-1=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\Agri_2016_recursive_link_alt.lst
-2=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\Agri_2016_recursive_link_alt.gms
-3=C:\Users\sungw\Downloads\Integrated_Ag_0128.gms
-4=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\mapping_io_tc_cge_2016_1.lst
-5=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\mapping_io_tc_cge_2016_1.gms
-6=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\SAM\Agri\consistency\iocost_r_Agri_0121.csv
-7=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\SAM\Agri\consistency\cost_Agri_0121.csv
-8=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\costmatch.gdx
-9=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\Agri_2016_static_alt.gms
+1=C:\work_2016\0000_Hybrid_2nd\CGE\Agri\Agri_2016_recursive_alt.lst
+2=C:\work_2016\0000_Hybrid_2nd\CGE\Agri\Agri_2016_recursive_alt.gms
+3=C:\work_2016\0000_Hybrid_2nd\CGE\Agri\Agri_2016_recursive_link_alt.lst
+4=C:\work_2016\0000_Hybrid_2nd\CGE\Agri\Agri_2016_recursive_link_alt.gms
+5=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\Agri_2016_recursive_link_alt.lst
+6=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\Agri_2016_recursive_link_alt.gms
+7=C:\Users\sungw\Downloads\Integrated_Ag_0128.gms
+8=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\mapping_io_tc_cge_2016_1.lst
+9=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri\mapping_io_tc_cge_2016_1.gms

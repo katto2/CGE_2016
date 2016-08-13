@@ -862,10 +862,12 @@ AEEI(C,A)=1;
 
 *base year capital rent : IO capital payment + IO depreciation/ KPI DB 2010 Total capital stock evaluated in 2010 ppi (Unit: 1,000,000,000 won)
 
-R0(K)=sum(A,SAM(K,A))/3403090.255;
+*R0(K)=sum(A,SAM(K,A))/3403090.255;
+R0(K)=1;
 KD0(K,A)=SAM(K,A)/R0(K);
 *base year wage : IO payroll / 2010 employment in Thousand
-W0(L)=sum(A,SAM(L,A))/23890;
+W0(L)=1;
+*W0(L)=sum(A,SAM(L,A))/23890;
 LD0(L,A)=SAM(L,A)/W0(L);
 *display R0,W0,LD0,KD0;
 *depreciation

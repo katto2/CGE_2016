@@ -1,0 +1,933 @@
+ACTP /ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a,CO2-a,ELEC-c,GAS-c,HEAT-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Chemistry-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electronics-c,Semidis-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,FF-c,Waste-c,CO2-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process,Total /
+ACT(ACTP) /ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a,CO2-a,ELEC-c,GAS-c,HEAT-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Chemistry-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electronics-c,Semidis-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,FF-c,Waste-c,CO2-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process,Total /
+ACNT(ACT)
+AC(ACT) /ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a,CO2-a,ELEC-c,GAS-c,HEAT-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Chemistry-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electronics-c,Semidis-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,FF-c,Waste-c,CO2-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process /
+ACNGT(ACT) /ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a,ELEC-c,GAS-c,HEAT-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Chemistry-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electronics-c,Semidis-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,FF-c,Waste-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process,Total /
+ACNGA(AC) /ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a,ELEC-c,GAS-c,HEAT-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Chemistry-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electronics-c,Semidis-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,FF-c,Waste-c,Labor,Capital,Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW,process /
+A(AC) /ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a /
+C(AC) /ELEC-c,GAS-c,HEAT-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c,Oil-c,LNG-c,Mining-c,IS-c,Cement-c,Chemistry-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electronics-c,Semidis-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,FF-c,Waste-c /
+ENC(C) /GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c,Oil-c,LNG-c /
+ENCN(C) /ELEC-c,HEAT-c,Mining-c,IS-c,Cement-c,Chemistry-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electronics-c,Semidis-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,FF-c,Waste-c /
+AgriC(C) /Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c /
+AGriA(A) /Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a /
+$onempty
+LinkC(C) / /
+LinkA(A) / /
+$offempty
+*LinkC(C) /Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c /
+*LinkA(A) /Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a /
+Sfuel(C) /CoalPro-c,Coal-c /
+Lfuel(C) /GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c,LNG-c /
+ELECC(C) /ELEC-c,HEAT-c /
+M(C) /Mining-c,IS-c,Cement-c,Chemistry-c,WoodPaper-c,FiberLeather-c,Mineral-c,nonISmetal-c,Machine-c,Electronics-c,Semidis-c,Auto-c,Ship-c,Food-c,MissManu-c,Const-c,Rail-c,Road-c,Air-c,Marine-c,MissTrans-c,Housing-c,Commercial-c,Public-c,Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c,FF-c,Waste-c /
+TransitionC(C) /ELEC-c,HEAT-c /
+ElecgC(C) /ELEC-c /
+Gasgc(C) /GAS-c,LNG-c /
+HeatgC(C) /HEAT-c /
+Oilgc(C) /Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c /
+Coalgc(C) /CoalPro-c,Coal-c /
+TransitionA(A) /ELEC-a,HEAT-a /
+ElecgA(A) /ELEC-a /
+GasgA(A) /GAS-a,LNG-a /
+HeatgA(A) /HEAT-a /
+OilgA(A) /Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a /
+CoalgA(A) /CoalPro-a,Coal-a /
+ELECC_s(C) /ELEC-c/
+HEATC_s(C) /HEAT-c/
+MiningC_s(C) /Mining-c/
+ISC_s(C) /IS-c/
+CementC_s(C) /Cement-c/
+ChemistryC_s(C) /Chemistry-c/
+WoodPaperC_s(C) /WoodPaper-c/
+FiberLeatherC_s(C) /FiberLeather-c/
+MineralC_s(C) /Mineral-c/
+nonISmetalC_s(C) /nonISmetal-c/
+MachineC_s(C) /Machine-c/
+ElectronicsC_s(C) /Electronics-c/
+SemidisC_s(C) /Semidis-c/
+AutoC_s(C) /Auto-c/
+ShipC_s(C) /Ship-c/
+FoodC_s(C) /Food-c/
+MissManuC_s(C) /MissManu-c/
+ConstC_s(C) /Const-c/
+RailC_s(C) /Rail-c/
+RoadC_s(C) /Road-c/
+AirC_s(C) /Air-c/
+MarineC_s(C) /Marine-c/
+MissTransC_s(C) /MissTrans-c/
+HousingC_s(C) /Housing-c/
+CommercialC_s(C) /Commercial-c/
+PublicC_s(C) /Public-c/
+RiceC_s(C) /Rice-c/
+BarleyC_s(C) /Barley-c/
+BeanC_s(C) /Bean-c/
+PotatoC_s(C) /Potato-c/
+VegiC_s(C) /Vegi-c/
+FruitC_s(C) /Fruit-c/
+FlowerC_s(C) /Flower-c/
+MissCropC_s(C) /MissCrop-c/
+DairyC_s(C) /Dairy-c/
+MeatC_s(C) /Meat-c/
+PorkC_s(C) /Pork-c/
+PoultryC_s(C) /Poultry-c/
+MissLstockC_s(C) /MissLstock-c/
+FFC_s(C) /FF-c/
+WasteC_s(C) /Waste-c/
+GASac_s(C) /GAS-c/
+Gasolineac_s(C) /Gasoline-c/
+Jetoilac_s(C) /Jetoil-c/
+Dieselac_s(C) /Diesel-c/
+Keroseneac_s(C) /Kerosene-c/
+Fueloilac_s(C) /Fueloil-c/
+LPGac_s(C) /LPG-c/
+Oilproac_s(C) /Oilpro-c/
+CoalProac_s(C) /CoalPro-c/
+Coalac_s(C) /Coal-c/
+Oilac_s(C) /Oil-c/
+LNGac_s(C) /LNG-c/
+EleccA(A,C)
+/
+ELEC-a.(ELEC-c )
+GAS-a.(ELEC-c )
+HEAT-a.(ELEC-c,HEAT-c )
+Gasoline-a.(ELEC-c,HEAT-c )
+Jetoil-a.(ELEC-c,HEAT-c )
+Diesel-a.(ELEC-c,HEAT-c )
+Kerosene-a.(ELEC-c,HEAT-c )
+Fueloil-a.(ELEC-c,HEAT-c )
+LPG-a.(ELEC-c,HEAT-c )
+Oilpro-a.(ELEC-c,HEAT-c )
+CoalPro-a.(ELEC-c )
+Coal-a.(ELEC-c )
+Mining-a.(ELEC-c )
+IS-a.(ELEC-c )
+Cement-a.(ELEC-c )
+Chemistry-a.(ELEC-c,HEAT-c )
+WoodPaper-a.(ELEC-c,HEAT-c )
+FiberLeather-a.(ELEC-c,HEAT-c )
+Mineral-a.(ELEC-c )
+nonISmetal-a.(ELEC-c )
+Machine-a.(ELEC-c,HEAT-c )
+Electronics-a.(ELEC-c )
+Semidis-a.(ELEC-c,HEAT-c )
+Auto-a.(ELEC-c )
+Ship-a.(ELEC-c )
+Food-a.(ELEC-c,HEAT-c )
+MissManu-a.(ELEC-c,HEAT-c )
+Const-a.(ELEC-c,HEAT-c )
+Rail-a.(ELEC-c )
+Road-a.(ELEC-c,HEAT-c )
+Air-a.(ELEC-c,HEAT-c )
+Marine-a.(ELEC-c,HEAT-c )
+MissTrans-a.(ELEC-c,HEAT-c )
+Housing-a.(ELEC-c )
+Commercial-a.(ELEC-c,HEAT-c )
+Public-a.(ELEC-c,HEAT-c )
+Rice-a.(ELEC-c )
+Barley-a.(ELEC-c )
+Bean-a.(ELEC-c )
+Potato-a.(ELEC-c )
+Vegi-a.(ELEC-c )
+Fruit-a.(ELEC-c )
+Flower-a.(ELEC-c )
+MissCrop-a.(ELEC-c )
+Dairy-a.(ELEC-c )
+Meat-a.(ELEC-c )
+Pork-a.(ELEC-c )
+Poultry-a.(ELEC-c )
+MissLstock-a.(ELEC-c )
+FF-a.(ELEC-c )
+Waste-a.(ELEC-c )
+/
+FuelA(A,C)
+/
+ELEC-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Coal-c )
+GAS-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,LNG-c )
+HEAT-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Coal-c )
+Gasoline-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Jetoil-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Diesel-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Kerosene-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Fueloil-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+LPG-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Oilpro-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+CoalPro-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Coal-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Oil-a.(Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c )
+LNG-a.(Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c )
+Mining-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+IS-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Cement-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Chemistry-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+WoodPaper-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+FiberLeather-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Mineral-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+nonISmetal-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Machine-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Electronics-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Semidis-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Auto-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Ship-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Food-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+MissManu-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Const-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Rail-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Road-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Air-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Marine-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+MissTrans-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Housing-a.(GAS-c )
+Commercial-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Public-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Rice-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Barley-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Bean-a.(Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Potato-a.(Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Vegi-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Fruit-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Flower-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+MissCrop-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Dairy-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Meat-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Pork-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c,CoalPro-c )
+Poultry-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+MissLstock-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+FF-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Waste-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+/
+GC(AC) /CO2-c /
+SFuelA(A,C)
+/
+ELEC-a.(Coal-c )
+HEAT-a.(Coal-c )
+CoalPro-a.(CoalPro-c,Coal-c )
+IS-a.(CoalPro-c,Coal-c )
+Cement-a.(CoalPro-c,Coal-c )
+Chemistry-a.(CoalPro-c,Coal-c )
+Mineral-a.(CoalPro-c )
+nonISmetal-a.(CoalPro-c,Coal-c )
+MissManu-a.(CoalPro-c,Coal-c )
+Const-a.(CoalPro-c )
+MissTrans-a.(CoalPro-c )
+Commercial-a.(CoalPro-c,Coal-c )
+Public-a.(CoalPro-c )
+Vegi-a.(CoalPro-c )
+Fruit-a.(CoalPro-c )
+Flower-a.(CoalPro-c )
+Pork-a.(CoalPro-c )
+Poultry-a.(CoalPro-c )
+MissLstock-a.(CoalPro-c )
+FF-a.(CoalPro-c )
+/
+LFuelA(A,C)
+/
+ELEC-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+GAS-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,LNG-c )
+HEAT-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Gasoline-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Jetoil-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Diesel-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Kerosene-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Fueloil-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+LPG-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+Oilpro-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Oil-c )
+CoalPro-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Coal-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Oil-a.(Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c )
+LNG-a.(Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c )
+Mining-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+IS-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Cement-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Chemistry-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+WoodPaper-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+FiberLeather-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Mineral-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+nonISmetal-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Machine-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Electronics-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Semidis-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Auto-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Ship-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Food-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+MissManu-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Const-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Rail-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Road-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Air-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Marine-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+MissTrans-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Housing-a.(GAS-c )
+Commercial-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Public-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Rice-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Barley-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Bean-a.(Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Potato-a.(Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Vegi-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Fruit-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Flower-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+MissCrop-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Dairy-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Meat-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Pork-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Poultry-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+MissLstock-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+FF-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Waste-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+/
+GfuelA(A,C)
+/
+ELEC-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Coal-c )
+GAS-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+HEAT-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,Coal-c )
+Gasoline-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Jetoil-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Diesel-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Kerosene-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Fueloil-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+LPG-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Oilpro-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+CoalPro-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Coal-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Oil-a.(Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c )
+LNG-a.(Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c )
+Mining-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+IS-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Cement-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Chemistry-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+WoodPaper-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+FiberLeather-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Mineral-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+nonISmetal-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Machine-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Electronics-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Semidis-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Auto-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Ship-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Food-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+MissManu-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Const-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Rail-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Road-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Air-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Marine-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+MissTrans-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Housing-a.(GAS-c )
+Commercial-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c,Coal-c )
+Public-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Rice-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Barley-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Bean-a.(Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Potato-a.(Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Vegi-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Fruit-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Flower-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+MissCrop-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Dairy-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c )
+Meat-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+Pork-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,LPG-c,Oilpro-c,CoalPro-c )
+Poultry-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+MissLstock-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+FF-a.(GAS-c,Gasoline-c,Jetoil-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c,CoalPro-c )
+Waste-a.(GAS-c,Gasoline-c,Diesel-c,Kerosene-c,Fueloil-c,LPG-c,Oilpro-c )
+/
+AgricA(A,C)
+/
+ELEC-a.(Flower-c )
+GAS-a.(Flower-c )
+HEAT-a.(Flower-c )
+Gasoline-a.(Flower-c )
+Jetoil-a.(Flower-c )
+Diesel-a.(Flower-c )
+Kerosene-a.(Flower-c )
+Fueloil-a.(Flower-c )
+LPG-a.(Flower-c )
+Oilpro-a.(Flower-c )
+CoalPro-a.(Flower-c )
+Mining-a.(Flower-c )
+IS-a.(Flower-c )
+Cement-a.(Flower-c )
+Chemistry-a.(Rice-c,Bean-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Poultry-c,MissLstock-c )
+WoodPaper-a.(Flower-c )
+FiberLeather-a.(Rice-c,Flower-c,MissCrop-c,MissLstock-c )
+Mineral-a.(Flower-c )
+nonISmetal-a.(Flower-c )
+Machine-a.(Flower-c )
+Electronics-a.(Flower-c )
+Semidis-a.(Flower-c )
+Auto-a.(Flower-c,MissCrop-c )
+Ship-a.(Flower-c,MissCrop-c )
+Food-a.(Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+MissManu-a.(Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Poultry-c,MissLstock-c )
+Const-a.(Flower-c,MissCrop-c )
+Rail-a.(Flower-c )
+Road-a.(Flower-c )
+Air-a.(Flower-c )
+Marine-a.(Flower-c )
+MissTrans-a.(Flower-c )
+Commercial-a.(Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Poultry-c,MissLstock-c )
+Public-a.(Rice-c,Barley-c,Vegi-c,Fruit-c,Flower-c,MissCrop-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Rice-a.(Rice-c,Barley-c,Flower-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Barley-a.(Rice-c,Barley-c,Flower-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Bean-a.(Rice-c,Bean-c )
+Potato-a.(Rice-c,Potato-c )
+Vegi-a.(Rice-c,Bean-c,Vegi-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Fruit-a.(Rice-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Flower-a.(Rice-c,Flower-c,MissCrop-c )
+MissCrop-a.(Rice-c,MissCrop-c,Dairy-c,Meat-c,Pork-c,Poultry-c,MissLstock-c )
+Dairy-a.(Rice-c,Barley-c,Bean-c,MissCrop-c,Dairy-c,Meat-c )
+Meat-a.(Rice-c,Barley-c,Bean-c,Potato-c,MissCrop-c,Dairy-c,Meat-c )
+Pork-a.(Rice-c,Barley-c,Bean-c,Potato-c,Vegi-c,MissCrop-c,Pork-c )
+Poultry-a.(Rice-c,Barley-c,Bean-c,Vegi-c,MissCrop-c,Poultry-c )
+MissLstock-a.(Rice-c,Barley-c,Bean-c,Potato-c,MissCrop-c,MissLstock-c )
+FF-a.(Rice-c,Flower-c,MissCrop-c )
+Waste-a.(Flower-c )
+/
+XPXC(C,A)
+/
+ELEC-c.(ELEC-a )
+GAS-c.(GAS-a )
+HEAT-c.(HEAT-a )
+Gasoline-c.(Gasoline-a )
+Jetoil-c.(Jetoil-a )
+Diesel-c.(Diesel-a )
+Kerosene-c.(Kerosene-a )
+Fueloil-c.(Fueloil-a )
+LPG-c.(LPG-a )
+Oilpro-c.(Oilpro-a )
+CoalPro-c.(CoalPro-a )
+Coal-c.(Coal-a )
+Oil-c.(Oil-a )
+LNG-c.(LNG-a )
+Mining-c.(Mining-a )
+IS-c.(IS-a )
+Cement-c.(Cement-a )
+Chemistry-c.(Chemistry-a )
+WoodPaper-c.(WoodPaper-a )
+FiberLeather-c.(FiberLeather-a )
+Mineral-c.(Mineral-a )
+nonISmetal-c.(nonISmetal-a )
+Machine-c.(Machine-a )
+Electronics-c.(Electronics-a )
+Semidis-c.(Semidis-a )
+Auto-c.(Auto-a )
+Ship-c.(Ship-a )
+Food-c.(Food-a )
+MissManu-c.(MissManu-a )
+Const-c.(Const-a )
+Rail-c.(Rail-a )
+Road-c.(Road-a )
+Air-c.(Air-a )
+Marine-c.(Marine-a )
+MissTrans-c.(MissTrans-a )
+Housing-c.(Housing-a )
+Commercial-c.(Commercial-a )
+Public-c.(Public-a )
+Rice-c.(Rice-a )
+Barley-c.(Barley-a )
+Bean-c.(Bean-a )
+Potato-c.(Potato-a )
+Vegi-c.(Vegi-a )
+Fruit-c.(Fruit-a )
+Flower-c.(Flower-a )
+MissCrop-c.(MissCrop-a )
+Dairy-c.(Dairy-a )
+Meat-c.(Meat-a )
+Pork-c.(Pork-a )
+Poultry-c.(Poultry-a )
+MissLstock-c.(MissLstock-a )
+FF-c.(FF-a )
+Waste-c.(Waste-a )
+/
+XAPA(C,A)
+/
+ELEC-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+HEAT-c.(HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Machine-a,Semidis-a,Food-a,MissManu-a,Const-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a )
+Mining-c.(ELEC-a,HEAT-a,Oilpro-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Commercial-a,Public-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,FF-a )
+IS-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Vegi-a,Fruit-a,Flower-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Cement-c.(ELEC-a,Gasoline-a,Jetoil-a,Diesel-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Air-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Chemistry-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+WoodPaper-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+FiberLeather-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Mineral-c.(ELEC-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Flower-a,MissLstock-a,FF-a,Waste-a )
+nonISmetal-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Air-a,MissTrans-a,Commercial-a,Public-a,Flower-a,MissCrop-a,FF-a,Waste-a )
+Machine-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Electronics-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,FF-a,Waste-a )
+Semidis-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,MissCrop-a,Meat-a,Pork-a,Poultry-a,FF-a,Waste-a )
+Auto-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Ship-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Diesel-a,Kerosene-a,Fueloil-a,Oilpro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Food-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+MissManu-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,FF-a,Waste-a )
+Const-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Rail-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Road-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Air-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Marine-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+MissTrans-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Commercial-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Public-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Rice-c.(Chemistry-a,FiberLeather-a,Food-a,MissManu-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a )
+Barley-c.(Food-a,MissManu-a,Commercial-a,Public-a,Rice-a,Barley-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+Bean-c.(Chemistry-a,Food-a,MissManu-a,Commercial-a,Bean-a,Vegi-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a )
+Potato-c.(Food-a,MissManu-a,Commercial-a,Potato-a,Meat-a,Pork-a,MissLstock-a )
+Vegi-c.(Chemistry-a,Food-a,MissManu-a,Commercial-a,Public-a,Vegi-a,Pork-a,Poultry-a )
+Fruit-c.(Chemistry-a,Food-a,MissManu-a,Commercial-a,Public-a )
+Flower-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Flower-a,FF-a,Waste-a )
+MissCrop-c.(Chemistry-a,FiberLeather-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Commercial-a,Public-a,Vegi-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a )
+Dairy-c.(Food-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,Dairy-a,Meat-a )
+Meat-c.(Food-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,Dairy-a,Meat-a )
+Pork-c.(Food-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,Pork-a )
+Poultry-c.(Chemistry-a,Food-a,MissManu-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,Poultry-a )
+MissLstock-c.(Chemistry-a,FiberLeather-a,Food-a,MissManu-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,MissCrop-a,MissLstock-a )
+FF-c.(Coal-a,Mining-a,Chemistry-a,WoodPaper-a,nonISmetal-a,Food-a,MissManu-a,Const-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,MissLstock-a,FF-a )
+Waste-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Flower-a,MissCrop-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+/
+XEPA(C,A)
+/
+GAS-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Housing-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Gasoline-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Jetoil-c.(Ship-a,MissManu-a,Air-a,MissTrans-a,Public-a,FF-a )
+Diesel-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Kerosene-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Fueloil-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Oil-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Meat-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+LPG-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,LNG-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+Oilpro-c.(ELEC-a,GAS-a,HEAT-a,Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a,CoalPro-a,Coal-a,Mining-a,IS-a,Cement-a,Chemistry-a,WoodPaper-a,FiberLeather-a,Mineral-a,nonISmetal-a,Machine-a,Electronics-a,Semidis-a,Auto-a,Ship-a,Food-a,MissManu-a,Const-a,Rail-a,Road-a,Air-a,Marine-a,MissTrans-a,Commercial-a,Public-a,Rice-a,Barley-a,Bean-a,Potato-a,Vegi-a,Fruit-a,Flower-a,MissCrop-a,Dairy-a,Meat-a,Pork-a,Poultry-a,MissLstock-a,FF-a,Waste-a )
+CoalPro-c.(CoalPro-a,IS-a,Cement-a,Chemistry-a,Mineral-a,nonISmetal-a,MissManu-a,Const-a,MissTrans-a,Commercial-a,Public-a,Vegi-a,Fruit-a,Flower-a,Pork-a,Poultry-a,MissLstock-a,FF-a )
+Coal-c.(ELEC-a,HEAT-a,CoalPro-a,IS-a,Cement-a,Chemistry-a,nonISmetal-a,MissManu-a,Commercial-a )
+Oil-c.(Gasoline-a,Jetoil-a,Diesel-a,Kerosene-a,Fueloil-a,LPG-a,Oilpro-a )
+LNG-c.(GAS-a )
+/
+FD(ACT) /GoV,S-I /
+FD_C(C,FD)
+/
+Gasoline-c.(S-I )
+Jetoil-c.(S-I )
+Diesel-c.(S-I )
+Kerosene-c.(S-I )
+Fueloil-c.(S-I )
+LPG-c.(S-I )
+Oilpro-c.(S-I )
+CoalPro-c.(S-I )
+Coal-c.(S-I )
+Oil-c.(S-I )
+LNG-c.(S-I )
+Mining-c.(S-I )
+IS-c.(S-I )
+Cement-c.(S-I )
+Chemistry-c.(S-I )
+WoodPaper-c.(S-I )
+FiberLeather-c.(S-I )
+Mineral-c.(S-I )
+nonISmetal-c.(S-I )
+Machine-c.(S-I )
+Electronics-c.(S-I )
+Semidis-c.(S-I )
+Auto-c.(S-I )
+Ship-c.(S-I )
+Food-c.(S-I )
+MissManu-c.(S-I )
+Const-c.(S-I )
+Rail-c.(S-I )
+Road-c.(S-I )
+Air-c.(S-I )
+Marine-c.(S-I )
+MissTrans-c.(S-I )
+Commercial-c.(GoV,S-I )
+Public-c.(GoV,S-I )
+Rice-c.(S-I )
+Barley-c.(S-I )
+Bean-c.(S-I )
+Potato-c.(S-I )
+Vegi-c.(S-I )
+Fruit-c.(S-I )
+Flower-c.(S-I )
+MissCrop-c.(S-I )
+Dairy-c.(S-I )
+Meat-c.(S-I )
+Pork-c.(S-I )
+Poultry-c.(S-I )
+MissLstock-c.(S-I )
+FF-c.(S-I )
+Waste-c.(GoV )
+/
+F(AC) /Labor,Capital /
+L(F) /Labor /
+K(F) /Capital /
+INS(AC) /Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I,ROW /
+INSD(INS) /Household,GoV,NRES,Ptaxin,Ptaxetc,Tarrif,YTAX,S-I /
+INSDN(INS) /ROW /
+H(INSD) /Household /
+XACH(H,C)
+/
+Household.ELEC-c
+Household.GAS-c
+Household.HEAT-c
+Household.Gasoline-c
+Household.Diesel-c
+Household.Kerosene-c
+Household.Fueloil-c
+Household.LPG-c
+Household.Oilpro-c
+Household.CoalPro-c
+Household.Mining-c
+Household.IS-c
+Household.Cement-c
+Household.Chemistry-c
+Household.WoodPaper-c
+Household.FiberLeather-c
+Household.Mineral-c
+Household.nonISmetal-c
+Household.Machine-c
+Household.Electronics-c
+Household.Semidis-c
+Household.Auto-c
+Household.Ship-c
+Household.Food-c
+Household.MissManu-c
+Household.Const-c
+Household.Rail-c
+Household.Road-c
+Household.Air-c
+Household.Marine-c
+Household.MissTrans-c
+Household.Housing-c
+Household.Commercial-c
+Household.Public-c
+Household.Rice-c
+Household.Barley-c
+Household.Bean-c
+Household.Potato-c
+Household.Vegi-c
+Household.Fruit-c
+Household.Flower-c
+Household.MissCrop-c
+Household.Dairy-c
+Household.Meat-c
+Household.Poultry-c
+Household.MissLstock-c
+Household.FF-c
+Household.Waste-c
+/
+iter
+/
+0*30000
+/
+t
+/0*25
+/
+Alias(ACT,ACTPP);
+Alias(INS,INSP);
+Alias(AC,ACP);
+Alias(A,AP);
+Alias(C,CP);
+Alias(F,FP);
+Alias(L,LP);
+Alias(K,KP);
+Alias(H,HP);
+Alias(GC,GCP);
+ACNT(ACT)=yes;
+ACNT('Total')=no;
+Parameters 
+Agri_single(A) 
+/ 
+                
+ELEC-a         0
+GAS-a          0
+HEAT-a         0
+Gasoline-a     0
+Jetoil-a       0
+Diesel-a       0
+Kerosene-a     0
+Fueloil-a      0
+LPG-a          0
+Oilpro-a       0
+CoalPro-a      0
+Mining-a       0
+IS-a           0
+Cement-a       0
+Chemistry-a    1
+WoodPaper-a    0
+FiberLeather-a 1
+Mineral-a      0
+nonISmetal-a   0
+Machine-a      0
+Electronics-a  0
+Semidis-a      0
+Auto-a         1
+Ship-a         1
+Food-a         1
+MissManu-a     1
+Const-a        1
+Rail-a         0
+Road-a         0
+Air-a          0
+Marine-a       0
+MissTrans-a    0
+Commercial-a   1
+Public-a       1
+Rice-a         1
+Barley-a       1
+Bean-a         1
+Potato-a       1
+Vegi-a         1
+Fruit-a        1
+Flower-a       1
+MissCrop-a     1
+Dairy-a        1
+Meat-a         1
+Pork-a         1
+Poultry-a      1
+MissLstock-a   1
+FF-a           1
+Waste-a        0
+/ 
+Parameter 
+Lfuel_single(A) 
+/ 
+                
+ELEC-a         1
+GAS-a          1
+HEAT-a         1
+Gasoline-a     1
+Jetoil-a       1
+Diesel-a       1
+Kerosene-a     1
+Fueloil-a      1
+LPG-a          1
+Oilpro-a       1
+CoalPro-a      1
+Coal-a         1
+Oil-a          1
+LNG-a          1
+Mining-a       1
+IS-a           1
+Cement-a       1
+Chemistry-a    1
+WoodPaper-a    1
+FiberLeather-a 1
+Mineral-a      1
+nonISmetal-a   1
+Machine-a      1
+Electronics-a  1
+Semidis-a      1
+Auto-a         1
+Ship-a         1
+Food-a         1
+MissManu-a     1
+Const-a        1
+Rail-a         1
+Road-a         1
+Air-a          1
+Marine-a       1
+MissTrans-a    1
+Housing-a      0
+Commercial-a   1
+Public-a       1
+Rice-a         1
+Barley-a       1
+Bean-a         1
+Potato-a       1
+Vegi-a         1
+Fruit-a        1
+Flower-a       1
+MissCrop-a     1
+Dairy-a        1
+Meat-a         1
+Pork-a         1
+Poultry-a      1
+MissLstock-a   1
+FF-a           1
+Waste-a        1
+/ 
+Sfuel_single(A) 
+/ 
+              
+ELEC-a       0
+HEAT-a       0
+CoalPro-a    1
+IS-a         1
+Cement-a     1
+Chemistry-a  1
+Mineral-a    0
+nonISmetal-a 1
+MissManu-a   1
+Const-a      0
+MissTrans-a  0
+Commercial-a 1
+Public-a     0
+Vegi-a       0
+Fruit-a      0
+Flower-a     0
+Pork-a       0
+Poultry-a    0
+MissLstock-a 0
+FF-a         0
+/ 
+ELECC_single(A) 
+/ 
+                
+ELEC-a         0
+GAS-a          0
+HEAT-a         1
+Gasoline-a     1
+Jetoil-a       1
+Diesel-a       1
+Kerosene-a     1
+Fueloil-a      1
+LPG-a          1
+Oilpro-a       1
+CoalPro-a      0
+Coal-a         0
+Mining-a       0
+IS-a           0
+Cement-a       0
+Chemistry-a    1
+WoodPaper-a    1
+FiberLeather-a 1
+Mineral-a      0
+nonISmetal-a   0
+Machine-a      1
+Electronics-a  0
+Semidis-a      1
+Auto-a         0
+Ship-a         0
+Food-a         1
+MissManu-a     1
+Const-a        1
+Rail-a         0
+Road-a         1
+Air-a          1
+Marine-a       1
+MissTrans-a    1
+Housing-a      0
+Commercial-a   1
+Public-a       1
+Rice-a         0
+Barley-a       0
+Bean-a         0
+Potato-a       0
+Vegi-a         0
+Fruit-a        0
+Flower-a       0
+MissCrop-a     0
+Dairy-a        0
+Meat-a         0
+Pork-a         0
+Poultry-a      0
+MissLstock-a   0
+FF-a           0
+Waste-a        0
+/ 
+K_single(A) 
+/ 
+                
+ELEC-a         0
+GAS-a          0
+HEAT-a         0
+Gasoline-a     0
+Jetoil-a       0
+Diesel-a       0
+Kerosene-a     0
+Fueloil-a      0
+LPG-a          0
+Oilpro-a       0
+CoalPro-a      0
+Coal-a         0
+Oil-a          0
+LNG-a          0
+Mining-a       0
+IS-a           0
+Cement-a       0
+Chemistry-a    0
+WoodPaper-a    0
+FiberLeather-a 0
+Mineral-a      0
+nonISmetal-a   0
+Machine-a      0
+Electronics-a  0
+Semidis-a      0
+Auto-a         0
+Ship-a         0
+Food-a         0
+MissManu-a     0
+Const-a        0
+Rail-a         0
+Road-a         0
+Air-a          0
+Marine-a       0
+MissTrans-a    0
+Housing-a      0
+Commercial-a   0
+Public-a       0
+Rice-a         0
+Barley-a       0
+Bean-a         0
+Potato-a       0
+Vegi-a         0
+Fruit-a        0
+Flower-a       0
+MissCrop-a     0
+Dairy-a        0
+Meat-a         0
+Pork-a         0
+Poultry-a      0
+MissLstock-a   0
+FF-a           0
+Waste-a        0
+/ 
+L_single(A) 
+/ 
+                
+ELEC-a         0
+GAS-a          0
+HEAT-a         0
+Gasoline-a     0
+Jetoil-a       0
+Diesel-a       0
+Kerosene-a     0
+Fueloil-a      0
+LPG-a          0
+Oilpro-a       0
+CoalPro-a      0
+Coal-a         0
+Oil-a          0
+LNG-a          0
+Mining-a       0
+IS-a           0
+Cement-a       0
+Chemistry-a    0
+WoodPaper-a    0
+FiberLeather-a 0
+Mineral-a      0
+nonISmetal-a   0
+Machine-a      0
+Electronics-a  0
+Semidis-a      0
+Auto-a         0
+Ship-a         0
+Food-a         0
+MissManu-a     0
+Const-a        0
+Rail-a         0
+Road-a         0
+Air-a          0
+Marine-a       0
+MissTrans-a    0
+Commercial-a   0
+Public-a       0
+Rice-a         0
+Barley-a       0
+Bean-a         0
+Potato-a       0
+Vegi-a         0
+Fruit-a        0
+Flower-a       0
+MissCrop-a     0
+Dairy-a        0
+Meat-a         0
+Pork-a         0
+Poultry-a      0
+MissLstock-a   0
+FF-a           0
+Waste-a        0
+/ 

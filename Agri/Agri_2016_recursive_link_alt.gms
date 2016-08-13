@@ -16,7 +16,7 @@ operation;
 operation=0;
 *operation=1;
 SET
-*$include "..\SAM\set_agri_recursive_nonlink_2016.txt"
+*$include "..\SAM\Agri\set_agri_recursive_nonlink_2016.txt"
 $include "..\SAM\Agri\set_agri_recursive_link_2016_alt_cons.txt"
 
 *$include "..\SAM\set_agri_recursive_link_2016.txt"

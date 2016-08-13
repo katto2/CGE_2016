@@ -21,24 +21,27 @@
 [RP:INTEGRATED_AG_0129_CONV]
 1=
 
+[OPENWINDOW_1]
+MAXIM=0
+TOP=0
+LEFT=0
+HEIGHT=624
+WIDTH=1604
+
 [RP:AGRI_2016_LINK_CONV]
 1=
 
-[MRUFILES]
-1=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Integrated_Ag_0129_conv.gms
-2=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_conv.lst
-3=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_conv.gms
-4=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\data\set_agri_static_link_2016_alt.txt
-5=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_proto.gms
-6=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_proto.lst
-7=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Integrated_Ag_0129.gms
+[RP:AGRI_2016_LINK_RECURSIVE]
+1=gdx=BAU
+2=
 
-[OPENWINDOW_1]
-FILE0=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_Link_2016\Agri_2016_link_conv.gms
-FILE1=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_Link_2016\Agri_2016_link_conv.lst
-FILE2=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_Link_2016\Agri_2016_link_conv.lst
-MAXIM=0
-TOP=16
-LEFT=0
-HEIGHT=394
-WIDTH=1094
+[MRUFILES]
+1=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_recursive.gms
+2=C:\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_Link_2016\Agri_2016_link_recursive.lst
+3=C:\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_Link_2016\Agri_2016_link_recursive.gms
+4=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_Link_2016\Agri_2016_link_recursive.lst
+5=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_Link_2016\Agri_2016_link_recursive.gms
+6=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_Link_2016\Agri_2016_link_conv.lst
+7=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_Link_2016\Agri_2016_link_conv.gms
+8=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_conv.gms
+9=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Integrated_Ag_0129_conv.gms

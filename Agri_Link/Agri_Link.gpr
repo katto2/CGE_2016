@@ -3,19 +3,10 @@
 [RP:MAPPING_IO_TC_CGE_2016_1]
 1=
 
-[RP:PROTO_AG_AGRICOMPOSITE_0120]
-1=
-
 [RP:AGRI_2016_STATIC]
 1=
 
-[RP:AGRI_2016_RECURSIVE_LINK_ALT]
-1=
-
 [RP:INTEGRATED_AG_0129]
-1=
-
-[RP:AGRI_2016_LINK_PROTO]
 1=
 
 [RP:GTAP_K]
@@ -27,25 +18,37 @@
 [RP:EE]
 1=
 
+[RP:PROTO_AG_AGRICOMPOSITE_0120]
+1=
+
+[RP:AGRI_2016_LINK_PROTO]
+1=
+
 [RP:AGRI_2016_LINK_CONV]
 1=
 
+[RP:AGRI_2016_RECURSIVE_LINK_ALT]
+1=
+
+[RP:AGRI_2016_LINK_RECURSIVE]
+1=
+2=gdx=BAU
+
 [MRUFILES]
-1=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Integrated_Ag_0129_conv.gms
-2=C:\Users\sungw\OneDrive\work_2015\0000_Hybrid_2nd\CGE\GTAP_K\GTAP_K\GTAP_K.gms
-3=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\data\set_agri_static_link_2016_alt.txt
-4=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_proto.gms
-5=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_proto.lst
-6=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Integrated_Ag_0129.gms
-7=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\SAM\Agri\consistency\iocost_r_Agri_2016.csv
+1=C:\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_recursive_link_alt.lst
+2=C:\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_recursive_link_alt.gms
+3=C:\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_conv.gms
+4=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_recursive.gms
+5=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_recursive.lst
+6=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_conv.gms
+7=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_conv.lst
 
 [OPENWINDOW_1]
-FILE0=C:\Users\sungw\OneDrive\work_2015\0000_Hybrid_2nd\CGE\GTAP_K\GTAP_K_0604\EE.gms
-FILE1=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_conv.gms
-FILE2=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_conv.lst
-FILE3=C:\Users\sungw\OneDrive\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_conv.lst
-MAXIM=1
-TOP=78
-LEFT=78
-HEIGHT=624
-WIDTH=1604
+FILE0=C:\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_recursive.gms
+FILE1=C:\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_recursive.lst
+FILE2=C:\work_2016\0000_Hybrid_2nd\CGE\Agri_Link\Agri_2016_link_recursive.gms
+MAXIM=0
+TOP=0
+LEFT=0
+HEIGHT=615
+WIDTH=1399
